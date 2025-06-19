@@ -1,0 +1,11 @@
+{
+  "ride_id": "JHOU",
+  "ppms": [
+    {
+      "ppm_code": "JHOU.M.1D.ATRC.01",
+      "qualification_code": "JHOU.2.DM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ride_id": "GLPR",
+  "ppms": [
+    {
+      "ppm_code": "GLPR.M.1D.R.01",
+      "qualification_code": "GLPR.2.DM.S",
+      "duration_hours": 0.36,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

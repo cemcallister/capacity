@@ -1,0 +1,830 @@
+{
+  "Week 1": {
+    "JBENBOW": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "SSARGEANT": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "CFORRESTER": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "RVAUGHAN": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "HBUCKLEY": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSMITH": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "DHARRISON": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "NPALLETT": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "AWILLIAMS": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JNEEDHAM": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 2": {
+    "JNEEDHAM": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "JBENBOW": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "SSARGEANT": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "CFORRESTER": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "RVAUGHAN": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "HBUCKLEY": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "SSMITH": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "DHARRISON": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "NPALLETT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "AWILLIAMS": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 3": {
+    "AWILLIAMS": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "JNEEDHAM": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "JBENBOW": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSARGEANT": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "CFORRESTER": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "RVAUGHAN": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "HBUCKLEY": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "SSMITH": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "DHARRISON": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "NPALLETT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 4": {
+    "NPALLETT": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "AWILLIAMS": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "JNEEDHAM": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JBENBOW": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSARGEANT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "CFORRESTER": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "RVAUGHAN": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "HBUCKLEY": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "SSMITH": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "DHARRISON": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 5": {
+    "DHARRISON": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "NPALLETT": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "AWILLIAMS": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JNEEDHAM": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JBENBOW": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "SSARGEANT": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "CFORRESTER": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "RVAUGHAN": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "HBUCKLEY": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSMITH": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 6": {
+    "SSMITH": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "DHARRISON": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "NPALLETT": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "AWILLIAMS": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JNEEDHAM": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "JBENBOW": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "SSARGEANT": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "CFORRESTER": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "RVAUGHAN": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "HBUCKLEY": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 7": {
+    "HBUCKLEY": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "SSMITH": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "DHARRISON": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "NPALLETT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "AWILLIAMS": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "JNEEDHAM": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "JBENBOW": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "SSARGEANT": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "CFORRESTER": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "RVAUGHAN": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 8": {
+    "RVAUGHAN": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "HBUCKLEY": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "SSMITH": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "DHARRISON": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "NPALLETT": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "AWILLIAMS": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "JNEEDHAM": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "JBENBOW": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSARGEANT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "CFORRESTER": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  },
+  "Week 9": {
+    "CFORRESTER": [
+      "L",
+      "L",
+      "L",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "RVAUGHAN": [
+      "E",
+      "O",
+      "O",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "HBUCKLEY": [
+      "O",
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSMITH": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "DHARRISON": [
+      "M",
+      "M",
+      "M",
+      "O",
+      "O",
+      "E",
+      "E"
+    ],
+    "NPALLETT": [
+      "E",
+      "O",
+      "O",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "AWILLIAMS": [
+      "O",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O",
+      "O"
+    ],
+    "JNEEDHAM": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "JBENBOW": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ],
+    "SSARGEANT": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "E",
+      "O",
+      "O"
+    ]
+  }
+}

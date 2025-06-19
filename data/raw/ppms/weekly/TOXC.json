@@ -1,0 +1,14 @@
+{
+  "ride_id": "TOXC",
+  "ppms": [
+    {
+      "ppm_code": "TOXC.M.1W.R.01",
+      "qualification_code": "TOXC.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

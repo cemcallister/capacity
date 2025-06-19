@@ -1,0 +1,17 @@
+{
+  "ride_id": "ITNG",
+  "ppms": [
+    {
+      "ppm_code": "ITNG.M.1D.B.01",
+      "qualification_code": "ITNG.2.DM.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "ITNG.M.1D.R.02",
+      "qualification_code": "ITNG.2.DM.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

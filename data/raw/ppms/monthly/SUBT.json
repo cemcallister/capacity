@@ -1,0 +1,14 @@
+{
+  "ride_id": "SUBT",
+  "ppms": [
+    {
+      "ppm_code": "SUBT.M.1M.R.01",
+      "qualification_code": "SUBT.4.WM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "shift_codes": {
+    "E": {
+      "label": "Early",
+      "working": true,
+      "time_weekday": ["06:00", "14:30"],
+      "time_weekend": ["06:00", "14:45"],
+      "valid_for_handover": true
+    },
+    "L": {
+      "label": "Late",
+      "working": true,
+      "time": ["14:00", "22:30"],
+      "valid_for_handover": false
+    },
+    "M": {
+      "label": "Mid",
+      "working": true,
+      "time": ["09:30", "18:45"],
+      "valid_for_handover": false,
+      "teams": ["Electrical"],
+      "description": "Mid shift - electrical teams only"
+    },
+    "O": {
+      "label": "Off",
+      "working": false,
+      "time": null,
+      "valid_for_handover": false
+    }
+  }
+}

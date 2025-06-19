@@ -1,0 +1,14 @@
+{
+  "ride_id": "PRHH",
+  "ppms": [
+    {
+      "ppm_code": "PRHH.M.1W.R.01",
+      "qualification_code": "PRHH.3.WM.S",
+      "duration_hours": 0.15000000000000002,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

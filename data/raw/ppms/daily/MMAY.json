@@ -1,0 +1,11 @@
+{
+  "ride_id": "MMAY",
+  "ppms": [
+    {
+      "ppm_code": "MMAY.M.1D.R.01",
+      "qualification_code": "MMAY.2.DM.S",
+      "duration_hours": 0.55,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

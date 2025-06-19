@@ -1,0 +1,23 @@
+{
+  "ride_id": "MMAY",
+  "ppms": [
+    {
+      "ppm_code": "MMAY.E.1M.R.01",
+      "qualification_code": "MMAY.4.ME.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "MMAY.M.1M.R.01",
+      "qualification_code": "MMAY.4.MM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

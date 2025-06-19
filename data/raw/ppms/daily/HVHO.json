@@ -1,0 +1,17 @@
+{
+  "ride_id": "HVHO",
+  "ppms": [
+    {
+      "ppm_code": "HVHO.E.1D.R.01",
+      "qualification_code": "HVHO.2.DE.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "HVHO.M.1D.R.02",
+      "qualification_code": "HVHO.2.DM.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ride_id": "BTGA",
+  "ppms": [
+    {
+      "ppm_code": "BTGA.E.1D.B.02",
+      "qualification_code": "BTGA.2.DE.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "BTGA.E.1D.R.01",
+      "qualification_code": "BTGA.2.DE.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "BTGA.M.1D.B.03",
+      "qualification_code": "BTGA.2.DM.S",
+      "duration_hours": 0.44,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "BTGA.M.1D.R.04",
+      "qualification_code": "BTGA.2.DM.S",
+      "duration_hours": 0.53,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

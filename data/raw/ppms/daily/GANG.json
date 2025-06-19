@@ -1,0 +1,23 @@
+{
+  "ride_id": "GANG",
+  "ppms": [
+    {
+      "ppm_code": "GANG.E.1D.C.02",
+      "qualification_code": "GANG.2.DE.C.S",
+      "duration_hours": 0.31,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "GANG.E.1D.R.01",
+      "qualification_code": "GANG.2.DE.C.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "GANG.M.1D.C.04",
+      "qualification_code": "GANG.2.DM.C.S",
+      "duration_hours": 0.32,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ride_id": "MONO",
+  "ppms": [
+    {
+      "ppm_code": "MONO.E.1D.T.01",
+      "qualification_code": "MONO.2.DE.T.S",
+      "duration_hours": 0.27,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "MONO.M.1D.R.02",
+      "qualification_code": "MONO.2.DM.R.S",
+      "duration_hours": 0.56,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "MONO.M.1D.T.03",
+      "qualification_code": "MONO.2.DM.T.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

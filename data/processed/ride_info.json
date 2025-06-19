@@ -1,0 +1,202 @@
+{
+    "rides": {
+      "BTGA": {
+        "name": "Battle Galleons",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "CRSE": {
+        "name": "Curse",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "DSCH": {
+        "name": "Driving School",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "DUEL": {
+        "name": "Duel",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "FHOP": {
+        "name": "Frog Hoppers",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "GALA": {
+        "name": "Galactica",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "GANG": {
+        "name": "Gangsta Granny",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "GLPR": {
+        "name": "Gallopers",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "GOJT": {
+        "name": "Go Jetters",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "GSGO": {
+        "name": "Get Set Go",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "HEXL": {
+        "name": "Hex",
+        "type": "B",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "HVHO": {
+        "name": "Heave Ho",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "ITNG": {
+        "name": "In The Night Garden",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "JHOU": {
+        "name": "Justice House",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "MMAY": {
+        "name": "Marauders Mayhem",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "MONO": {
+        "name": "Monorail",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "NEME": {
+        "name": "Nemesis",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "NUMT": {
+        "name": "Num Tums",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "OBLV": {
+        "name": "Oblivion",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "OCTO": {
+        "name": "Octonauts",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "PPAT": {
+        "name": "Postman Pat",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "PRHH": {
+        "name": "Hippity Hop",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "RAPD": {
+        "name": "Rapids",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "RITA": {
+        "name": "Rita - Queen of Speed",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "RMTR": {
+        "name": "Runaway Mine Train",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "SKYR": {
+        "name": "Skyride",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "SMLR": {
+        "name": "The Smiler",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "SPBL": {
+        "name": "Spinball Whizzer",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "SUBT": {
+        "name": "Sub-Terra",
+        "type": "B",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "THRT": {
+        "name": "Thirteen",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "TOXC": {
+        "name": "Toxic Bog",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "WICK": {
+        "name": "Wickerman",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "BLDE": {
+        "name": "Blade",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      }
+    }
+  }

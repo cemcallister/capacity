@@ -1,0 +1,14 @@
+{
+  "ride_id": "FHOP",
+  "ppms": [
+    {
+      "ppm_code": "FHOP.M.1W.R.01",
+      "qualification_code": "FHOP.3.WM.S",
+      "duration_hours": 0.23,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

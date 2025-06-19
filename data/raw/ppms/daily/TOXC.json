@@ -1,0 +1,11 @@
+{
+  "ride_id": "TOXC",
+  "ppms": [
+    {
+      "ppm_code": "TOXC.M.1D.R.01",
+      "qualification_code": "TOXC.2.DM.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

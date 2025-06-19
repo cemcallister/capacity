@@ -1,0 +1,14 @@
+{
+  "ride_id": "MONO",
+  "ppms": [
+    {
+      "ppm_code": "MONO.M.1W.R.02",
+      "qualification_code": "MONO.3.WM.R.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}
