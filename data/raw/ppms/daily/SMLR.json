@@ -15,13 +15,13 @@
     },
     {
       "ppm_code": "SMLR.M.1D.R.03",
-      "qualification_code": "SMLR.2.DE.R.S",
+      "qualification_code": "SMLR.2.DM.R.S",
       "duration_hours": 3.0,
       "maintenance_type": "MECHANICAL"
     },
     {
       "ppm_code": "SMLR.M.1D.T.04",
-      "qualification_code": "SMLR.2.DE.R.S",
+      "qualification_code": "SMLR.2.DM.R.S",
       "duration_hours": 0.34,
       "maintenance_type": "MECHANICAL"
     }

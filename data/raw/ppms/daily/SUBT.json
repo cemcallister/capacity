@@ -3,7 +3,7 @@
   "ppms": [
     {
       "ppm_code": "SUBT.E.1D.R.02",
-      "qualification_code": "SUBT.E.1D.R.02",
+      "qualification_code": "SUBT.2.DE.R.S",
       "duration_hours": 1.0,
       "maintenance_type": "ELECTRICAL"
     },

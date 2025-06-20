@@ -21,7 +21,7 @@
     },
     {
       "ppm_code": "GANG.M.1M.C.04",
-      "qualification_code": "GANG.4.ME.C.S",
+      "qualification_code": "GANG.4.MM.C.S",
       "duration_hours": 0.5,
       "maintenance_type": "MECHANICAL",
       "frequency": "1M",
@@ -30,7 +30,7 @@
     },
     {
       "ppm_code": "GANG.M.1M.R.03",
-      "qualification_code": "GANG.4.ME.R.S",
+      "qualification_code": "GANG.4.MM.R.S",
       "duration_hours": 0.7,
       "maintenance_type": "MECHANICAL",
       "frequency": "1M",

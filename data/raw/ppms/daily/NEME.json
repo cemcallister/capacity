@@ -9,13 +9,13 @@
     },
     {
       "ppm_code": "NEME.M.1D.R.01",
-      "qualification_code": "NEME.2.DE.R.S",
+      "qualification_code": "NEME.2.DM.R.S",
       "duration_hours": 1.07,
       "maintenance_type": "MECHANICAL"
     },
     {
       "ppm_code": "NEME.M.1D.T.02",
-      "qualification_code": "NEME.2.DE.R.S",
+      "qualification_code": "NEME.2.DM.R.S",
       "duration_hours": 1.0,
       "maintenance_type": "MECHANICAL"
     }
