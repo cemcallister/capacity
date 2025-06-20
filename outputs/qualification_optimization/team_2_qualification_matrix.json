@@ -1,0 +1,181 @@
+{
+  "TEAM2_ELEC_01": {
+    "role": "electrical",
+    "qualifications": [
+      "NEME.4.ME.R.S",
+      "OCTO.3.WE.R.S",
+      "NEME.2.DE.R.S",
+      "NEME.4.ME.T.S",
+      "HVHO.2.DE.S",
+      "GALA.2.DE.R.S",
+      "MONO.4.ME.D.S",
+      "MONO.4.ME.T.S",
+      "CRSE.4.ME.S",
+      "MONO.2.DE.T.S",
+      "WICK.4.ME.R.S",
+      "RAPD.3.WE.R.S",
+      "RMTR.2.DE.R.S"
+    ],
+    "type_a_rides": [
+      "NEME",
+      "GALA"
+    ],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_ELEC_02": {
+    "role": "electrical",
+    "qualifications": [
+      "SKYR.4.ME.R.S",
+      "BTGA.2.DE.S",
+      "OCTO.2.DE.R.S",
+      "GOJT.2.DE.S",
+      "RAPD.2.DE.R.S",
+      "WICK.2.DE.R.S",
+      "WICK.3.WE.R.S",
+      "GALA.3.WE.GALP.S",
+      "MMAY.4.ME.S",
+      "WICK.2.DE.T.S",
+      "MONO.4.ME.R.S",
+      "CRSE.3.WE.C.S",
+      "GALA.2.DE.T.S"
+    ],
+    "type_a_rides": [
+      "SKYR",
+      "GALA"
+    ],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_01": {
+    "role": "mechanical",
+    "qualifications": [
+      "RMTR.4.MM.T.S",
+      "GALA.3.WM.T.S",
+      "MONO.3.WM.R.S",
+      "RMTR.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "RAPD.3.WM.B.S",
+      "RMTR.4.MM.R.S",
+      "OCTO.4.MM.T.S",
+      "TOXC.4.3MM.R.S",
+      "GALA.4.3MM.SPRG.S",
+      "SKYR.4.MMS.S"
+    ],
+    "type_a_rides": [
+      "WICK",
+      "NEME"
+    ],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_02": {
+    "role": "mechanical",
+    "qualifications": [
+      "WICK.2.DM.T.S",
+      "RMTR.3.WM.T.S",
+      "RAPD.2.DM.B.S",
+      "WICK.3.WM.STRC.S",
+      "GALA.2.DM.R.S",
+      "NEME.3.WM.T.S",
+      "MONO.2.DM.T.S",
+      "GOJT.2.DM.S",
+      "NEME.4.3MM.SPRG.S"
+    ],
+    "type_a_rides": [],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_03": {
+    "role": "mechanical",
+    "qualifications": [
+      "NEME.4.MM.R.S",
+      "CRSE.2.DM.S",
+      "HVHO.3.WM.S",
+      "NEME.4.MM.TZ.S",
+      "OCTO.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "GOJT.3.WM.S",
+      "HVHO.2.DM.S"
+    ],
+    "type_a_rides": [],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_04": {
+    "role": "mechanical",
+    "qualifications": [
+      "MONO.4.MM.R.S",
+      "SKYR.4.MM.G.S",
+      "GOJT.4.MM.S",
+      "SKYR.3.WM.S",
+      "RMTR.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "BTGA.3.WM.S",
+      "NEME.3.WM.R.S"
+    ],
+    "type_a_rides": [],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_05": {
+    "role": "mechanical",
+    "qualifications": [
+      "RAPD.4.MM.R.S",
+      "MMAY.4.MM.S",
+      "WICK.4.MM.TMBR.S",
+      "OCTO.3.WM.T.S",
+      "OCTO.3.WM.R.S",
+      "WICK.4.MM.R.S",
+      "NEME.4.MM.T.S",
+      "MMAY.2.DM.S"
+    ],
+    "type_a_rides": [
+      "WICK",
+      "SKYR"
+    ],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_06": {
+    "role": "mechanical",
+    "qualifications": [
+      "BTGA.2.DM.S",
+      "SKYR.4.MM.S",
+      "MONO.2.DM.R.S",
+      "GALA.4.MM.TZ.S",
+      "WICK.3.WM.R.S",
+      "RAPD.3.WM.R.S",
+      "CRSE.4.MM.S",
+      "RAPD.4.MM.B.S"
+    ],
+    "type_a_rides": [],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  },
+  "TEAM2_MECH_07": {
+    "role": "mechanical",
+    "qualifications": [
+      "BTGA.4.MM.S",
+      "OCTO.4.MM.R.S",
+      "WICK.3.WM.T.S",
+      "GALA.3.WM.R.S",
+      "GALA.4.MM.R.S",
+      "TOXC.3.WM.R.S",
+      "SKYR.2.DM.S",
+      "TOXC.2.DM.R.S"
+    ],
+    "type_a_rides": [],
+    "daily_ppms": [],
+    "weekly_ppms": [],
+    "monthly_ppms": []
+  }
+}

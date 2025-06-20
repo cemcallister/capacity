@@ -1,0 +1,98 @@
+{
+  "1": {
+    "daily": {
+      "coverage_percentage": 100.0,
+      "total_days_tested": 180,
+      "successful_days": 180,
+      "failed_days": [],
+      "coverage_gaps": [],
+      "unique_gap_rides": [],
+      "weeks_tested": 36
+    },
+    "weekly": {
+      "coverage_percentage": 100.0,
+      "total_weeks_tested": 36,
+      "successful_weeks": 36,
+      "failed_weeks": [],
+      "coverage_gaps": [],
+      "unique_gap_qualifications": [],
+      "am_scheduled": 2160,
+      "pm_scheduled": 0,
+      "am_preference_rate": 100.0,
+      "weeks_tested": 36
+    },
+    "monthly": {
+      "coverage_percentage": 100.0,
+      "total_months_tested": 9,
+      "successful_months": 9,
+      "coverage_gaps": [],
+      "unique_gap_qualifications": [],
+      "weeks_tested": 36
+    },
+    "overall_status": "\u2705 EXCELLENT",
+    "risk_analysis": {
+      "single_point_failures": 0,
+      "good_coverage": 89,
+      "excellent_coverage": 87,
+      "overall_risk": "LOW",
+      "spf_ratio": 0.0,
+      "total_qualifications": 89,
+      "spf_qualifications": []
+    },
+    "rotation_info": {
+      "electrical_weeks": 36,
+      "mechanical_weeks": 36,
+      "total_days_tested": 180,
+      "total_weeks_tested": 36
+    }
+  },
+  "2": {
+    "daily": {
+      "coverage_percentage": 100.0,
+      "total_days_tested": 180,
+      "successful_days": 180,
+      "failed_days": [],
+      "coverage_gaps": [],
+      "unique_gap_rides": [],
+      "weeks_tested": 36
+    },
+    "weekly": {
+      "coverage_percentage": 100.0,
+      "total_weeks_tested": 36,
+      "successful_weeks": 36,
+      "failed_weeks": [],
+      "coverage_gaps": [],
+      "unique_gap_qualifications": [],
+      "am_scheduled": 1868,
+      "pm_scheduled": 4,
+      "am_preference_rate": 99.78632478632478,
+      "weeks_tested": 36
+    },
+    "monthly": {
+      "coverage_percentage": 100.0,
+      "total_months_tested": 9,
+      "successful_months": 9,
+      "coverage_gaps": [],
+      "unique_gap_qualifications": [],
+      "weeks_tested": 36
+    },
+    "overall_status": "\u2705 EXCELLENT",
+    "risk_analysis": {
+      "single_point_failures": 1,
+      "good_coverage": 88,
+      "excellent_coverage": 87,
+      "overall_risk": "LOW",
+      "spf_ratio": 0.011235955056179775,
+      "total_qualifications": 89,
+      "spf_qualifications": [
+        "SKYR.4.ME.R.S"
+      ]
+    },
+    "rotation_info": {
+      "electrical_weeks": 36,
+      "mechanical_weeks": 36,
+      "total_days_tested": 180,
+      "total_weeks_tested": 36
+    }
+  }
+}

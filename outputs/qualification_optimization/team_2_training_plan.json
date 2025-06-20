@@ -1,0 +1,289 @@
+{
+  "phases": {
+    "Phase 1 (Immediate)": {
+      "qualifications": [
+        "BTGA.2.DE.S",
+        "BTGA.2.DM.S",
+        "CRSE.2.DM.S",
+        "GALA.2.DE.R.S",
+        "GALA.2.DM.R.S",
+        "GOJT.2.DE.S",
+        "GOJT.2.DM.S",
+        "HVHO.2.DE.S",
+        "HVHO.2.DM.S",
+        "MMAY.2.DM.S",
+        "MONO.2.DE.T.S",
+        "MONO.2.DM.R.S",
+        "MONO.2.DM.T.S",
+        "NEME.2.DE.R.S",
+        "OCTO.2.DE.R.S",
+        "OCTO.2.DM.R.S",
+        "RAPD.2.DE.R.S",
+        "RAPD.2.DM.B.S",
+        "RMTR.2.DE.R.S",
+        "RMTR.2.DM.R.S",
+        "SKYR.2.DM.S",
+        "TOXC.2.DM.R.S"
+      ],
+      "description": "Critical daily PPMs"
+    },
+    "Phase 2 (Month 2-3)": {
+      "qualifications": [
+        "WICK.2.DE.R.S",
+        "WICK.2.DE.T.S",
+        "WICK.2.DM.R.S",
+        "WICK.2.DM.T.S",
+        "BTGA.3.WM.S",
+        "CRSE.3.WE.C.S",
+        "GALA.2.DE.T.S",
+        "GALA.3.WE.GALP.S",
+        "GALA.3.WM.R.S",
+        "GALA.3.WM.T.S",
+        "GOJT.3.WM.S",
+        "HVHO.3.WM.S",
+        "MMAY.3.WM.S",
+        "MONO.3.WM.R.S",
+        "NEME.3.WM.R.S",
+        "NEME.3.WM.T.S",
+        "OCTO.3.WE.R.S",
+        "OCTO.3.WM.R.S",
+        "OCTO.3.WM.T.S",
+        "RAPD.3.WE.R.S",
+        "RAPD.3.WM.B.S",
+        "RAPD.3.WM.R.S"
+      ],
+      "description": "Weekly PPMs and essential skills"
+    },
+    "Phase 3 (Month 4-6)": {
+      "qualifications": [
+        "RMTR.3.WM.R.S",
+        "RMTR.3.WM.T.S",
+        "SKYR.3.WM.S",
+        "TOXC.3.WM.R.S",
+        "WICK.3.WE.R.S",
+        "WICK.3.WM.R.S",
+        "WICK.3.WM.STRC.S",
+        "WICK.3.WM.T.S",
+        "BTGA.4.MM.S",
+        "CRSE.4.ME.S",
+        "CRSE.4.MM.S",
+        "GALA.4.3MM.SPRG.S",
+        "GALA.4.ME.R.S",
+        "GALA.4.MM.R.S",
+        "GALA.4.MM.TZ.S",
+        "GOJT.4.MM.S",
+        "MMAY.4.ME.S",
+        "MMAY.4.MM.S",
+        "MONO.4.ME.D.S",
+        "MONO.4.ME.R.S",
+        "MONO.4.ME.T.S",
+        "MONO.4.MM.R.S"
+      ],
+      "description": "Monthly PPMs and specializations"
+    },
+    "Phase 4 (Ongoing)": {
+      "qualifications": [
+        "NEME.4.3MM.SPRG.S",
+        "NEME.4.ME.R.S",
+        "NEME.4.ME.T.S",
+        "NEME.4.MM.R.S",
+        "NEME.4.MM.T.S",
+        "NEME.4.MM.TZ.S",
+        "OCTO.4.MM.R.S",
+        "OCTO.4.MM.T.S",
+        "RAPD.4.MM.B.S",
+        "RAPD.4.MM.R.S",
+        "RMTR.4.MM.R.S",
+        "RMTR.4.MM.T.S",
+        "SKYR.4.ME.R.S",
+        "SKYR.4.MM.G.S",
+        "SKYR.4.MM.S",
+        "SKYR.4.MMS.S",
+        "TOXC.4.3MM.R.S",
+        "TOXC.4.MM.R.S",
+        "WICK.4.ME.R.S",
+        "WICK.4.MM.R.S",
+        "WICK.4.MM.STRC.S",
+        "WICK.4.MM.TMBR.S"
+      ],
+      "description": "Advanced qualifications and cross-training"
+    }
+  },
+  "engineer_plans": {
+    "TEAM2_ELEC_01": {
+      "phase_1": [
+        "NEME.2.DE.R.S",
+        "HVHO.2.DE.S",
+        "GALA.2.DE.R.S",
+        "MONO.2.DE.T.S",
+        "RMTR.2.DE.R.S"
+      ],
+      "phase_2": [
+        "OCTO.3.WE.R.S",
+        "RAPD.3.WE.R.S"
+      ],
+      "phase_3": [
+        "NEME.4.ME.R.S",
+        "NEME.4.ME.T.S",
+        "MONO.4.ME.D.S",
+        "MONO.4.ME.T.S",
+        "CRSE.4.ME.S",
+        "WICK.4.ME.R.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 13
+    },
+    "TEAM2_ELEC_02": {
+      "phase_1": [
+        "BTGA.2.DE.S",
+        "OCTO.2.DE.R.S",
+        "GOJT.2.DE.S",
+        "RAPD.2.DE.R.S",
+        "WICK.2.DE.R.S",
+        "WICK.2.DE.T.S"
+      ],
+      "phase_2": [
+        "WICK.3.WE.R.S",
+        "GALA.3.WE.GALP.S",
+        "CRSE.3.WE.C.S",
+        "GALA.2.DE.T.S"
+      ],
+      "phase_3": [
+        "SKYR.4.ME.R.S",
+        "MMAY.4.ME.S",
+        "MONO.4.ME.R.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 13
+    },
+    "TEAM2_MECH_01": {
+      "phase_1": [],
+      "phase_2": [
+        "GALA.3.WM.T.S",
+        "MONO.3.WM.R.S",
+        "RMTR.3.WM.R.S",
+        "RAPD.3.WM.B.S"
+      ],
+      "phase_3": [
+        "RMTR.4.MM.T.S",
+        "WICK.4.MM.STRC.S",
+        "RMTR.4.MM.R.S",
+        "OCTO.4.MM.T.S",
+        "TOXC.4.3MM.R.S",
+        "GALA.4.3MM.SPRG.S",
+        "SKYR.4.MMS.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 11
+    },
+    "TEAM2_MECH_02": {
+      "phase_1": [
+        "WICK.2.DM.T.S",
+        "RAPD.2.DM.B.S",
+        "GALA.2.DM.R.S",
+        "MONO.2.DM.T.S",
+        "GOJT.2.DM.S"
+      ],
+      "phase_2": [
+        "RMTR.3.WM.T.S",
+        "WICK.3.WM.STRC.S",
+        "NEME.3.WM.T.S"
+      ],
+      "phase_3": [
+        "NEME.4.3MM.SPRG.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 9
+    },
+    "TEAM2_MECH_03": {
+      "phase_1": [
+        "CRSE.2.DM.S",
+        "OCTO.2.DM.R.S",
+        "HVHO.2.DM.S"
+      ],
+      "phase_2": [
+        "HVHO.3.WM.S",
+        "GOJT.3.WM.S"
+      ],
+      "phase_3": [
+        "NEME.4.MM.R.S",
+        "NEME.4.MM.TZ.S",
+        "TOXC.4.MM.R.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 8
+    },
+    "TEAM2_MECH_04": {
+      "phase_1": [
+        "RMTR.2.DM.R.S",
+        "WICK.2.DM.R.S"
+      ],
+      "phase_2": [
+        "SKYR.3.WM.S",
+        "BTGA.3.WM.S",
+        "NEME.3.WM.R.S"
+      ],
+      "phase_3": [
+        "MONO.4.MM.R.S",
+        "SKYR.4.MM.G.S",
+        "GOJT.4.MM.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 8
+    },
+    "TEAM2_MECH_05": {
+      "phase_1": [
+        "MMAY.2.DM.S"
+      ],
+      "phase_2": [
+        "OCTO.3.WM.T.S",
+        "OCTO.3.WM.R.S"
+      ],
+      "phase_3": [
+        "RAPD.4.MM.R.S",
+        "MMAY.4.MM.S",
+        "WICK.4.MM.TMBR.S",
+        "WICK.4.MM.R.S",
+        "NEME.4.MM.T.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 8
+    },
+    "TEAM2_MECH_06": {
+      "phase_1": [
+        "BTGA.2.DM.S",
+        "MONO.2.DM.R.S"
+      ],
+      "phase_2": [
+        "WICK.3.WM.R.S",
+        "RAPD.3.WM.R.S"
+      ],
+      "phase_3": [
+        "SKYR.4.MM.S",
+        "GALA.4.MM.TZ.S",
+        "CRSE.4.MM.S",
+        "RAPD.4.MM.B.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 8
+    },
+    "TEAM2_MECH_07": {
+      "phase_1": [
+        "SKYR.2.DM.S",
+        "TOXC.2.DM.R.S"
+      ],
+      "phase_2": [
+        "WICK.3.WM.T.S",
+        "GALA.3.WM.R.S",
+        "TOXC.3.WM.R.S"
+      ],
+      "phase_3": [
+        "BTGA.4.MM.S",
+        "OCTO.4.MM.R.S",
+        "GALA.4.MM.R.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 8
+    }
+  }
+}

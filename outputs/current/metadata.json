@@ -1,0 +1,29 @@
+{
+  "optimization_name": "milp_mathematical",
+  "created_timestamp": "2025-06-20T12:10:54.091258",
+  "optimization_config": {
+    "approach": "milp_mathematical",
+    "features": [
+      "mathematical_optimization",
+      "guaranteed_coverage_constraints",
+      "fairness_objective_function",
+      "pulp_linear_programming",
+      "optimal_solution_guarantee",
+      "constraint_satisfaction",
+      "intelligent_heuristic_fallback"
+    ],
+    "target_coverage": {
+      "daily_ppms": "100% (guaranteed)",
+      "weekly_ppms": "100% (guaranteed)",
+      "monthly_ppms": "100% (guaranteed)"
+    }
+  },
+  "teams_included": [
+    1,
+    2
+  ],
+  "total_engineers": {
+    "1": 27,
+    "2": 32
+  }
+}

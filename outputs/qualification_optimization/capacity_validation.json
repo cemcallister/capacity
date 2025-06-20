@@ -1,0 +1,52 @@
+{
+  "1": {
+    "daily_coverage": {
+      "total_ppms": 43,
+      "covered_ppms": 40,
+      "coverage_pct": 93.02325581395348,
+      "uncovered_quals": []
+    },
+    "weekly_coverage": {
+      "total_ppms": 60,
+      "covered_ppms": 60,
+      "coverage_pct": 100.0
+    },
+    "monthly_coverage": {
+      "total_ppms": 48,
+      "covered_ppms": 39,
+      "coverage_pct": 81.25
+    },
+    "risk_analysis": {
+      "single_point_failures": 82,
+      "good_coverage": 0,
+      "excellent_coverage": 0,
+      "overall_risk": "HIGH",
+      "spf_ratio": 1.0
+    }
+  },
+  "2": {
+    "daily_coverage": {
+      "total_ppms": 42,
+      "covered_ppms": 42,
+      "coverage_pct": 100.0,
+      "uncovered_quals": []
+    },
+    "weekly_coverage": {
+      "total_ppms": 52,
+      "covered_ppms": 51,
+      "coverage_pct": 98.07692307692307
+    },
+    "monthly_coverage": {
+      "total_ppms": 55,
+      "covered_ppms": 54,
+      "coverage_pct": 98.18181818181819
+    },
+    "risk_analysis": {
+      "single_point_failures": 86,
+      "good_coverage": 0,
+      "excellent_coverage": 0,
+      "overall_risk": "HIGH",
+      "spf_ratio": 1.0
+    }
+  }
+}

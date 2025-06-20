@@ -1,0 +1,293 @@
+{
+  "phases": {
+    "Phase 1 (Immediate)": {
+      "qualifications": [
+        "DSCH.2.DM.S",
+        "FHOP.2.DM.S",
+        "GANG.2.DE.C.S",
+        "GANG.2.DM.C.S",
+        "GLPR.2.DM.S",
+        "GSGO.2.DE.S",
+        "GSGO.2.DM.S",
+        "HEXL.2.DM.S",
+        "ITNG.2.DM.S",
+        "JHOU.2.DM.S",
+        "NUMT.2.DM.S",
+        "OBLV.2.DE.R.S",
+        "OBLV.2.DM.R.S",
+        "PPAT.2.DE.S",
+        "PPAT.2.DM.S",
+        "PRHH.2.DM.S",
+        "RITA.2.DE.R.S",
+        "RITA.2.DM.R.S",
+        "SMLR.2.DE.R.S",
+        "SPBL.2.DE.C.S",
+        "SPBL.2.DM.C.S"
+      ],
+      "description": "Critical daily PPMs"
+    },
+    "Phase 2 (Month 2-3)": {
+      "qualifications": [
+        "SUBT.2.DM.S",
+        "SUBT.E.1D.R.02",
+        "THRT.2.DE.R.S",
+        "THRT.2.DM.R.S",
+        "FHOP.3.WM.S",
+        "GANG.3.WM.C.S",
+        "GANG.3.WM.R.S",
+        "GLPR.3.WE.R.S",
+        "GLPR.3.WM.S",
+        "ITNG.3.WM.S",
+        "NUMT.3.WM.S",
+        "OBLV.3.WE.M.S",
+        "OBLV.3.WE.T.S",
+        "OBLV.3.WM.R.S",
+        "OBLV.3.WM.T.S",
+        "PRHH.3.WM.S",
+        "RITA.3.WE.R.S",
+        "RITA.3.WE.T.S",
+        "RITA.3.WM.R.S",
+        "RITA.3.WM.T.S",
+        "SMLR.3.WE.R.S"
+      ],
+      "description": "Weekly PPMs and essential skills"
+    },
+    "Phase 3 (Month 4-6)": {
+      "qualifications": [
+        "SMLR.3.WE.T.S",
+        "SMLR.3.WM.GNI.S",
+        "SMLR.3.WM.R.S",
+        "SMLR.3.WM.T.S",
+        "SPBL.3.WM.C.S",
+        "SPBL.3.WM.R.S",
+        "SUBT.3.WE.LBAR.S",
+        "SUBT.3.WM.S",
+        "THRT.3.WE.R.S",
+        "THRT.3.WE.T.S",
+        "THRT.3.WM.R.S",
+        "THRT.3.WM.T.S",
+        "DSCH.4.ME.C.S",
+        "DSCH.4.MM.S",
+        "GANG.4.ME.C.S",
+        "GANG.4.ME.R.S",
+        "GSGO.4.MM.BUG.S",
+        "GSGO.4.MM.S",
+        "HEXL.4.MM.S",
+        "HEXL.4.QM.S",
+        "ITNG.4.MM.S"
+      ],
+      "description": "Monthly PPMs and specializations"
+    },
+    "Phase 4 (Ongoing)": {
+      "qualifications": [
+        "OBLV.4.3MM.SPRG.S",
+        "OBLV.4.ME.R.S",
+        "OBLV.4.MM.R.S",
+        "OBLV.4.MM.T.S",
+        "OBLV.4.MM.TZ.S",
+        "RITA.4.ME.OXY.S",
+        "RITA.4.ME.T.S",
+        "RITA.4.MM.R.S",
+        "RITA.4.MM.T.S",
+        "SMLR.4.ME.R.S",
+        "SMLR.4.ME.T.S",
+        "SMLR.4.MM.CLM.S",
+        "SMLR.4.MM.R.S",
+        "SMLR.4.MM.T.S",
+        "SPBL.4.ME.C.S",
+        "SPBL.4.MM.C.S",
+        "SPBL.4.MM.R.S",
+        "SUBT.4.WM.S",
+        "THRT.4.ME.OXY.S",
+        "THRT.4.ME.R.S",
+        "THRT.4.ME.T.S",
+        "THRT.4.MM.R.S",
+        "THRT.4.MM.T.S"
+      ],
+      "description": "Advanced qualifications and cross-training"
+    }
+  },
+  "engineer_plans": {
+    "TEAM1_ELEC_01": {
+      "phase_1": [
+        "SMLR.2.DE.R.S",
+        "GANG.2.DE.C.S",
+        "OBLV.2.DE.R.S",
+        "RITA.2.DE.R.S",
+        "THRT.2.DE.R.S",
+        "SPBL.2.DE.C.S"
+      ],
+      "phase_2": [
+        "OBLV.3.WE.M.S"
+      ],
+      "phase_3": [
+        "THRT.4.ME.R.S",
+        "GANG.4.ME.R.S",
+        "SMLR.4.ME.T.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 10
+    },
+    "TEAM1_ELEC_02": {
+      "phase_1": [
+        "GSGO.2.DE.S"
+      ],
+      "phase_2": [
+        "SMLR.3.WE.T.S",
+        "SMLR.3.WE.R.S",
+        "SUBT.3.WE.LBAR.S",
+        "THRT.3.WE.T.S",
+        "RITA.3.WE.R.S"
+      ],
+      "phase_3": [
+        "THRT.4.ME.T.S",
+        "THRT.4.ME.OXY.S",
+        "OBLV.4.ME.R.S",
+        "RITA.4.ME.T.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 10
+    },
+    "TEAM1_ELEC_03": {
+      "phase_1": [
+        "PPAT.2.DE.S"
+      ],
+      "phase_2": [
+        "OBLV.3.WE.T.S",
+        "THRT.3.WE.R.S",
+        "GLPR.3.WE.R.S",
+        "RITA.3.WE.T.S"
+      ],
+      "phase_3": [
+        "GANG.4.ME.C.S",
+        "RITA.4.ME.OXY.S",
+        "SMLR.4.ME.R.S",
+        "DSCH.4.ME.C.S",
+        "SPBL.4.ME.C.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 10
+    },
+    "TEAM1_MECH_01": {
+      "phase_1": [
+        "JHOU.2.DM.S",
+        "FHOP.2.DM.S",
+        "SUBT.E.1D.R.02"
+      ],
+      "phase_2": [
+        "ITNG.3.WM.S",
+        "GLPR.3.WM.S",
+        "SMLR.3.WM.GNI.S"
+      ],
+      "phase_3": [
+        "SPBL.4.MM.C.S",
+        "SPBL.4.MM.R.S",
+        "HEXL.4.QM.S",
+        "OBLV.4.3MM.SPRG.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 10
+    },
+    "TEAM1_MECH_02": {
+      "phase_1": [
+        "ITNG.2.DM.S",
+        "SPBL.2.DM.C.S"
+      ],
+      "phase_2": [
+        "OBLV.3.WM.T.S",
+        "SMLR.3.WM.T.S",
+        "SUBT.3.WM.S"
+      ],
+      "phase_3": [
+        "DSCH.4.MM.S",
+        "OBLV.4.MM.TZ.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    },
+    "TEAM1_MECH_03": {
+      "phase_1": [
+        "PPAT.2.DM.S",
+        "SUBT.2.DM.S",
+        "GLPR.2.DM.S"
+      ],
+      "phase_2": [
+        "SPBL.3.WM.R.S",
+        "GANG.3.WM.C.S",
+        "PRHH.3.WM.S"
+      ],
+      "phase_3": [
+        "SUBT.4.WM.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    },
+    "TEAM1_MECH_04": {
+      "phase_1": [
+        "GSGO.2.DM.S",
+        "HEXL.2.DM.S"
+      ],
+      "phase_2": [
+        "SPBL.3.WM.C.S",
+        "THRT.3.WM.R.S",
+        "NUMT.3.WM.S"
+      ],
+      "phase_3": [
+        "GSGO.4.MM.S",
+        "OBLV.4.MM.T.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    },
+    "TEAM1_MECH_05": {
+      "phase_1": [
+        "THRT.2.DM.R.S",
+        "PRHH.2.DM.S",
+        "DSCH.2.DM.S"
+      ],
+      "phase_2": [
+        "SMLR.3.WM.R.S",
+        "THRT.3.WM.T.S",
+        "FHOP.3.WM.S"
+      ],
+      "phase_3": [
+        "RITA.4.MM.T.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    },
+    "TEAM1_MECH_06": {
+      "phase_1": [
+        "OBLV.2.DM.R.S",
+        "NUMT.2.DM.S"
+      ],
+      "phase_2": [
+        "RITA.3.WM.R.S",
+        "OBLV.3.WM.R.S"
+      ],
+      "phase_3": [
+        "ITNG.4.MM.S",
+        "THRT.4.MM.T.S",
+        "OBLV.4.MM.R.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    },
+    "TEAM1_MECH_07": {
+      "phase_1": [],
+      "phase_2": [
+        "RITA.3.WM.T.S",
+        "GANG.3.WM.R.S"
+      ],
+      "phase_3": [
+        "SMLR.4.MM.T.S",
+        "GSGO.4.MM.BUG.S",
+        "RITA.4.MM.R.S",
+        "THRT.4.MM.R.S",
+        "HEXL.4.MM.S"
+      ],
+      "phase_4": [],
+      "estimated_weeks": 7
+    }
+  }
+}
