@@ -291,29 +291,30 @@ class MILPOptimizationDesigner:
                     for ride_id in team_rides 
                     if self.optimizer.rides_info[ride_id]['type'] == 'A'
                 ])
+                type_b_rides_assigned = pulp.lpSum([
+                    ride_assignment[eng_id][ride_id] 
+                    for ride_id in team_rides 
+                    if self.optimizer.rides_info[ride_id]['type'] == 'B'
+                ])
                 type_c_rides_assigned = pulp.lpSum([
                     ride_assignment[eng_id][ride_id] 
                     for ride_id in team_rides 
                     if self.optimizer.rides_info[ride_id]['type'] == 'C'
                 ])
                 
-                # Balanced blend constraints (more flexible than rigid requirements)
-                # 1. No engineer gets MORE than 75% of their rides as Type A (avoid overload)
-                prob += type_a_rides_assigned <= 0.75 * total_rides, f"Max_TypeA_{eng_id}"
+                # BALANCED PROFILE CONSTRAINTS: Equal type access for all engineers
+                # If any engineer gets a ride type, ALL engineers should get that ride type
+                # This ensures fairness and better coverage through more qualifications
                 
-                # 2. No engineer gets MORE than 75% of their rides as Type C (ensure some complexity)
-                prob += type_c_rides_assigned <= 0.75 * total_rides, f"Max_TypeC_{eng_id}"
+                # Count available ride types for this team
+                team_type_a_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'A'])
+                team_type_b_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'B'])
+                team_type_c_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'C'])
                 
-                # 3. If engineer has 2+ rides, they should have at least 1 non-Type-C ride (some complexity)
-                # This is softer than requiring Type A specifically
-                non_type_c_rides = pulp.lpSum([
-                    ride_assignment[eng_id][ride_id] 
-                    for ride_id in team_rides 
-                    if self.optimizer.rides_info[ride_id]['type'] in ['A', 'B']
-                ])
-                prob += non_type_c_rides >= 0.4 * total_rides, f"Min_Complexity_{eng_id}"
-                
-                constraint_count += 3
+                # Store type assignment variables for global equality constraints (added later)
+                if 'type_assignments' not in locals():
+                    # Will be used to enforce equal type distribution across all engineers
+                    pass
                 
                 # Role constraints: Engineers only get rides that have qualifications for their role
                 for ride_id in team_rides:
@@ -334,6 +335,73 @@ class MILPOptimizationDesigner:
                     # Coverage validator will test actual shift availability
                 
                 constraint_count += 2
+            
+            # GLOBAL EQUALITY CONSTRAINTS: Equal type distribution for all engineers
+            print(f"      Adding equal type distribution constraints...")
+            prev_constraint_count = constraint_count
+            
+            # Count available ride types for this team
+            team_type_a_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'A'])
+            team_type_b_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'B'])
+            team_type_c_count = len([r for r in team_rides if self.optimizer.rides_info[r]['type'] == 'C'])
+            
+            # Only add equality constraints for types that exist
+            if team_type_a_count > 0:
+                # All engineers should get the same number of Type A rides
+                type_a_counts = []
+                for eng in all_engineers:
+                    eng_id = eng['employee_code']
+                    type_a_for_eng = pulp.lpSum([
+                        ride_assignment[eng_id][ride_id] 
+                        for ride_id in team_rides 
+                        if self.optimizer.rides_info[ride_id]['type'] == 'A'
+                    ])
+                    type_a_counts.append(type_a_for_eng)
+                
+                # Set all Type A counts equal to the first engineer's count
+                if len(type_a_counts) > 1:
+                    for i in range(1, len(type_a_counts)):
+                        prob += type_a_counts[0] == type_a_counts[i], f"EqualTypeA_{i}"
+                        constraint_count += 1
+            
+            if team_type_b_count > 0:
+                # All engineers should get the same number of Type B rides
+                type_b_counts = []
+                for eng in all_engineers:
+                    eng_id = eng['employee_code']
+                    type_b_for_eng = pulp.lpSum([
+                        ride_assignment[eng_id][ride_id] 
+                        for ride_id in team_rides 
+                        if self.optimizer.rides_info[ride_id]['type'] == 'B'
+                    ])
+                    type_b_counts.append(type_b_for_eng)
+                
+                # Set all Type B counts equal to the first engineer's count
+                if len(type_b_counts) > 1:
+                    for i in range(1, len(type_b_counts)):
+                        prob += type_b_counts[0] == type_b_counts[i], f"EqualTypeB_{i}"
+                        constraint_count += 1
+            
+            if team_type_c_count > 0:
+                # All engineers should get the same number of Type C rides
+                type_c_counts = []
+                for eng in all_engineers:
+                    eng_id = eng['employee_code']
+                    type_c_for_eng = pulp.lpSum([
+                        ride_assignment[eng_id][ride_id] 
+                        for ride_id in team_rides 
+                        if self.optimizer.rides_info[ride_id]['type'] == 'C'
+                    ])
+                    type_c_counts.append(type_c_for_eng)
+                
+                # Set all Type C counts equal to the first engineer's count
+                if len(type_c_counts) > 1:
+                    for i in range(1, len(type_c_counts)):
+                        prob += type_c_counts[0] == type_c_counts[i], f"EqualTypeC_{i}"
+                        constraint_count += 1
+            
+            print(f"         Equal type distribution: {constraint_count - prev_constraint_count} constraints added")
+            prev_constraint_count = constraint_count
             
             # 2. MINIMAL Coverage constraints: Each ride needs at least 1 qualified engineer
             # Let the MILP discover optimal redundancy rather than hardcoding minimums
@@ -1097,12 +1165,77 @@ class MILPOptimizationDesigner:
         """Fallback heuristic assignment"""
         return self._create_balanced_fair_assignment(team, all_engineers)
     
+    def _generate_engineer_assignment_counts(self, matrices):
+        """Generate engineer assignment counts per ride split by electrical/mechanical"""
+        assignment_counts = {}
+        
+        for team in [1, 2]:
+            if team not in matrices:
+                continue
+                
+            team_assignments = {}
+            team_quals = matrices[team]
+            
+            # Get team rides
+            team_rides = [rid for rid, info in self.optimizer.rides_info.items() 
+                         if info.get('team_responsible') == team]
+            
+            # Initialize ride data
+            for ride_id in team_rides:
+                ride_name = self.optimizer.rides_info[ride_id]['name']
+                ride_type = self.optimizer.rides_info[ride_id]['type']
+                team_assignments[ride_id] = {
+                    'ride_name': ride_name,
+                    'ride_type': ride_type,
+                    'electrical_engineers': [],
+                    'mechanical_engineers': [],
+                    'electrical_count': 0,
+                    'mechanical_count': 0,
+                    'total_count': 0
+                }
+            
+            # Analyze engineer assignments
+            for eng_id, eng_data in team_quals.items():
+                name = eng_data['name']
+                role = eng_data['role']
+                qualifications = eng_data.get('qualifications', [])
+                
+                # Extract ride codes from qualifications
+                assigned_rides = set()
+                for qual in qualifications:
+                    ride_code = qual.split('.')[0]
+                    assigned_rides.add(ride_code)
+                
+                # Add engineer to each ride they're qualified for
+                for ride_code in assigned_rides:
+                    if ride_code in team_assignments:
+                        if role == 'electrical':
+                            team_assignments[ride_code]['electrical_engineers'].append(name)
+                            team_assignments[ride_code]['electrical_count'] += 1
+                        else:
+                            team_assignments[ride_code]['mechanical_engineers'].append(name)
+                            team_assignments[ride_code]['mechanical_count'] += 1
+                        team_assignments[ride_code]['total_count'] += 1
+            
+            # Sort engineer names for consistency
+            for ride_data in team_assignments.values():
+                ride_data['electrical_engineers'].sort()
+                ride_data['mechanical_engineers'].sort()
+            
+            assignment_counts[f'team_{team}'] = team_assignments
+        
+        return assignment_counts
+
     def validate_and_export_results(self, matrices):
-        """Validate results using coverage validator"""
+        """Validate results using coverage validator and generate assignment reports"""
         print("\n🧪 VALIDATING MILP/HEURISTIC RESULTS")
         print("=" * 70)
         
         validation_results = self.coverage_validator.validate_assignment_coverage(matrices)
+        
+        # Generate engineer assignment counts
+        print("\n📊 GENERATING ENGINEER ASSIGNMENT COUNTS...")
+        assignment_counts = self._generate_engineer_assignment_counts(matrices)
         
         # Display validation summary
         for team in [1, 2]:
@@ -1117,7 +1250,7 @@ class MILPOptimizationDesigner:
                 print(f"   Weekly Coverage:  {weekly_cov:.1f}% {'🎯' if weekly_cov >= 90 else '⚠️' if weekly_cov >= 60 else '❌'}")
                 print(f"   Monthly Coverage: {monthly_cov:.1f}% {'🎯' if monthly_cov >= 90 else '⚠️' if monthly_cov >= 60 else '❌'}")
         
-        return validation_results
+        return validation_results, assignment_counts
     
     def _build_qualification_role_mapping(self):
         """Build qualification to role mapping from actual PPM data"""

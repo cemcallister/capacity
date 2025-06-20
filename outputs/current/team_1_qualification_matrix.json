@@ -8,11 +8,13 @@
     "assigned_rides": [
       "GANG",
       "PPAT",
-      "RITA",
-      "SUBT"
+      "SMLR",
+      "SUBT",
+      "THRT"
     ],
     "type_a_rides": [
-      "RITA"
+      "SMLR",
+      "THRT"
     ],
     "type_b_rides": [
       "SUBT"
@@ -26,20 +28,27 @@
       "GANG.2.DE.C.S",
       "GANG.4.ME.C.S",
       "PPAT.2.DE.S",
-      "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
-      "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
-      "RITA.3.WE.R.S",
-      "SUBT.2.DE.R.S"
+      "SMLR.3.WE.R.S",
+      "SMLR.3.WE.T.S",
+      "SMLR.4.ME.R.S",
+      "SMLR.4.ME.T.S",
+      "SMLR.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.3.WE.R.S",
+      "THRT.4.ME.R.S",
+      "THRT.2.DE.R.S",
+      "THRT.4.ME.T.S",
+      "THRT.3.WE.T.S",
+      "THRT.4.ME.OXY.S"
     ],
     "daily_qualifications": [
       "GANG.2.DE.C.S",
       "PPAT.2.DE.S",
-      "RITA.2.DE.R.S",
-      "SUBT.2.DE.R.S"
+      "SMLR.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.2.DE.R.S"
     ],
-    "coverage_score": 10
+    "coverage_score": 16
   },
   "HBUCKLEY": {
     "name": "Haydan Buckley",
@@ -48,45 +57,46 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
-      "GSGO",
-      "OBLV",
+      "DSCH",
+      "GANG",
       "RITA",
-      "THRT"
+      "SPBL",
+      "SUBT"
     ],
     "type_a_rides": [
-      "OBLV",
       "RITA",
-      "THRT"
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
-      "GSGO"
+      "DSCH",
+      "GANG"
     ],
     "qualifications": [
-      "GSGO.2.DE.S",
-      "OBLV.4.ME.R.S",
-      "OBLV.3.WE.M.S",
-      "OBLV.2.DE.R.S",
-      "OBLV.3.WE.T.S",
+      "DSCH.4.ME.C.S",
+      "GANG.4.ME.R.S",
+      "GANG.2.DE.C.S",
+      "GANG.4.ME.C.S",
+      "RITA.2.DE.T.S",
       "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
       "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
       "RITA.3.WE.R.S",
-      "THRT.3.WE.T.S",
-      "THRT.3.WE.R.S",
-      "THRT.4.ME.R.S",
-      "THRT.4.ME.OXY.S",
-      "THRT.4.ME.T.S",
-      "THRT.2.DE.R.S"
+      "RITA.4.ME.OXY.S",
+      "RITA.2.DE.R.S",
+      "SPBL.4.ME.C.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S"
     ],
     "daily_qualifications": [
-      "GSGO.2.DE.S",
-      "OBLV.2.DE.R.S",
+      "GANG.2.DE.C.S",
+      "RITA.2.DE.T.S",
       "RITA.2.DE.R.S",
-      "THRT.2.DE.R.S"
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S"
     ],
-    "coverage_score": 16
+    "coverage_score": 13
   },
   "JNEEDHAM": {
     "name": "Jordan Needham",
@@ -95,7 +105,254 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
+      "GSGO",
+      "OBLV",
       "PPAT",
+      "SMLR",
+      "SUBT"
+    ],
+    "type_a_rides": [
+      "OBLV",
+      "SMLR"
+    ],
+    "type_b_rides": [
+      "SUBT"
+    ],
+    "type_c_rides": [
+      "GSGO",
+      "PPAT"
+    ],
+    "qualifications": [
+      "GSGO.2.DE.S",
+      "OBLV.2.DE.R.S",
+      "OBLV.3.WE.M.S",
+      "OBLV.3.WE.T.S",
+      "OBLV.4.ME.R.S",
+      "PPAT.2.DE.S",
+      "SMLR.3.WE.R.S",
+      "SMLR.3.WE.T.S",
+      "SMLR.4.ME.R.S",
+      "SMLR.4.ME.T.S",
+      "SMLR.2.DE.R.S",
+      "SUBT.2.DE.R.S"
+    ],
+    "daily_qualifications": [
+      "GSGO.2.DE.S",
+      "OBLV.2.DE.R.S",
+      "PPAT.2.DE.S",
+      "SMLR.2.DE.R.S",
+      "SUBT.2.DE.R.S"
+    ],
+    "coverage_score": 12
+  },
+  "SSMITH": {
+    "name": "Stephen Smith",
+    "role": "electrical",
+    "rota_number": 5,
+    "early_ratio": 0.5111111111111111,
+    "critical_early_days": 92,
+    "assigned_rides": [
+      "GANG",
+      "GLPR",
+      "SPBL",
+      "SUBT",
+      "THRT"
+    ],
+    "type_a_rides": [
+      "SPBL",
+      "THRT"
+    ],
+    "type_b_rides": [
+      "SUBT"
+    ],
+    "type_c_rides": [
+      "GANG",
+      "GLPR"
+    ],
+    "qualifications": [
+      "GANG.4.ME.R.S",
+      "GANG.2.DE.C.S",
+      "GANG.4.ME.C.S",
+      "GLPR.3.WE.R.S",
+      "SPBL.4.ME.C.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S",
+      "THRT.3.WE.R.S",
+      "THRT.4.ME.R.S",
+      "THRT.2.DE.R.S",
+      "THRT.4.ME.T.S",
+      "THRT.3.WE.T.S",
+      "THRT.4.ME.OXY.S"
+    ],
+    "daily_qualifications": [
+      "GANG.2.DE.C.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S",
+      "THRT.2.DE.R.S"
+    ],
+    "coverage_score": 13
+  },
+  "CFORRESTER": {
+    "name": "Charmaine Forrester",
+    "role": "electrical",
+    "rota_number": 2,
+    "early_ratio": 0.5111111111111111,
+    "critical_early_days": 92,
+    "assigned_rides": [
+      "GANG",
+      "GLPR",
+      "RITA",
+      "SUBT",
+      "THRT"
+    ],
+    "type_a_rides": [
+      "RITA",
+      "THRT"
+    ],
+    "type_b_rides": [
+      "SUBT"
+    ],
+    "type_c_rides": [
+      "GANG",
+      "GLPR"
+    ],
+    "qualifications": [
+      "GANG.4.ME.R.S",
+      "GANG.2.DE.C.S",
+      "GANG.4.ME.C.S",
+      "GLPR.3.WE.R.S",
+      "RITA.2.DE.T.S",
+      "RITA.3.WE.T.S",
+      "RITA.4.ME.T.S",
+      "RITA.3.WE.R.S",
+      "RITA.4.ME.OXY.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.3.WE.R.S",
+      "THRT.4.ME.R.S",
+      "THRT.2.DE.R.S",
+      "THRT.4.ME.T.S",
+      "THRT.3.WE.T.S",
+      "THRT.4.ME.OXY.S"
+    ],
+    "daily_qualifications": [
+      "GANG.2.DE.C.S",
+      "RITA.2.DE.T.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.2.DE.R.S"
+    ],
+    "coverage_score": 17
+  },
+  "DHARRISON": {
+    "name": "David Harrison",
+    "role": "electrical",
+    "rota_number": 6,
+    "early_ratio": 0.5111111111111111,
+    "critical_early_days": 92,
+    "assigned_rides": [
+      "GLPR",
+      "OBLV",
+      "PPAT",
+      "RITA",
+      "SUBT"
+    ],
+    "type_a_rides": [
+      "OBLV",
+      "RITA"
+    ],
+    "type_b_rides": [
+      "SUBT"
+    ],
+    "type_c_rides": [
+      "GLPR",
+      "PPAT"
+    ],
+    "qualifications": [
+      "GLPR.3.WE.R.S",
+      "OBLV.2.DE.R.S",
+      "OBLV.3.WE.M.S",
+      "OBLV.3.WE.T.S",
+      "OBLV.4.ME.R.S",
+      "PPAT.2.DE.S",
+      "RITA.2.DE.T.S",
+      "RITA.3.WE.T.S",
+      "RITA.4.ME.T.S",
+      "RITA.3.WE.R.S",
+      "RITA.4.ME.OXY.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S"
+    ],
+    "daily_qualifications": [
+      "OBLV.2.DE.R.S",
+      "PPAT.2.DE.S",
+      "RITA.2.DE.T.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S"
+    ],
+    "coverage_score": 13
+  },
+  "JBENBOW": {
+    "name": "James Benbow",
+    "role": "electrical",
+    "rota_number": 1,
+    "early_ratio": 0.5111111111111111,
+    "critical_early_days": 92,
+    "assigned_rides": [
+      "DSCH",
+      "GANG",
+      "RITA",
+      "SUBT",
+      "THRT"
+    ],
+    "type_a_rides": [
+      "RITA",
+      "THRT"
+    ],
+    "type_b_rides": [
+      "SUBT"
+    ],
+    "type_c_rides": [
+      "DSCH",
+      "GANG"
+    ],
+    "qualifications": [
+      "DSCH.4.ME.C.S",
+      "GANG.4.ME.R.S",
+      "GANG.2.DE.C.S",
+      "GANG.4.ME.C.S",
+      "RITA.2.DE.T.S",
+      "RITA.3.WE.T.S",
+      "RITA.4.ME.T.S",
+      "RITA.3.WE.R.S",
+      "RITA.4.ME.OXY.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.3.WE.R.S",
+      "THRT.4.ME.R.S",
+      "THRT.2.DE.R.S",
+      "THRT.4.ME.T.S",
+      "THRT.3.WE.T.S",
+      "THRT.4.ME.OXY.S"
+    ],
+    "daily_qualifications": [
+      "GANG.2.DE.C.S",
+      "RITA.2.DE.T.S",
+      "RITA.2.DE.R.S",
+      "SUBT.2.DE.R.S",
+      "THRT.2.DE.R.S"
+    ],
+    "coverage_score": 17
+  },
+  "NPALLETT": {
+    "name": "Neil Pallett",
+    "role": "electrical",
+    "rota_number": 7,
+    "early_ratio": 0.5111111111111111,
+    "critical_early_days": 92,
+    "assigned_rides": [
+      "GANG",
+      "GSGO",
       "SMLR",
       "SPBL",
       "SUBT"
@@ -108,244 +365,31 @@
       "SUBT"
     ],
     "type_c_rides": [
-      "PPAT"
+      "GANG",
+      "GSGO"
     ],
     "qualifications": [
-      "PPAT.2.DE.S",
+      "GANG.4.ME.R.S",
+      "GANG.2.DE.C.S",
+      "GANG.4.ME.C.S",
+      "GSGO.2.DE.S",
       "SMLR.3.WE.R.S",
       "SMLR.3.WE.T.S",
+      "SMLR.4.ME.R.S",
       "SMLR.4.ME.T.S",
       "SMLR.2.DE.R.S",
-      "SMLR.4.ME.R.S",
-      "SPBL.2.DE.C.S",
       "SPBL.4.ME.C.S",
+      "SPBL.2.DE.C.S",
       "SUBT.2.DE.R.S"
     ],
     "daily_qualifications": [
-      "PPAT.2.DE.S",
+      "GANG.2.DE.C.S",
+      "GSGO.2.DE.S",
       "SMLR.2.DE.R.S",
       "SPBL.2.DE.C.S",
       "SUBT.2.DE.R.S"
     ],
-    "coverage_score": 9
-  },
-  "SSMITH": {
-    "name": "Stephen Smith",
-    "role": "electrical",
-    "rota_number": 5,
-    "early_ratio": 0.5111111111111111,
-    "critical_early_days": 92,
-    "assigned_rides": [
-      "GANG",
-      "PPAT",
-      "RITA",
-      "SMLR"
-    ],
-    "type_a_rides": [
-      "RITA",
-      "SMLR"
-    ],
-    "type_b_rides": [],
-    "type_c_rides": [
-      "GANG",
-      "PPAT"
-    ],
-    "qualifications": [
-      "GANG.4.ME.R.S",
-      "GANG.2.DE.C.S",
-      "GANG.4.ME.C.S",
-      "PPAT.2.DE.S",
-      "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
-      "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
-      "RITA.3.WE.R.S",
-      "SMLR.3.WE.R.S",
-      "SMLR.3.WE.T.S",
-      "SMLR.4.ME.T.S",
-      "SMLR.2.DE.R.S",
-      "SMLR.4.ME.R.S"
-    ],
-    "daily_qualifications": [
-      "GANG.2.DE.C.S",
-      "PPAT.2.DE.S",
-      "RITA.2.DE.R.S",
-      "SMLR.2.DE.R.S"
-    ],
-    "coverage_score": 14
-  },
-  "CFORRESTER": {
-    "name": "Charmaine Forrester",
-    "role": "electrical",
-    "rota_number": 2,
-    "early_ratio": 0.5111111111111111,
-    "critical_early_days": 92,
-    "assigned_rides": [
-      "GANG",
-      "PPAT",
-      "RITA",
-      "SUBT"
-    ],
-    "type_a_rides": [
-      "RITA"
-    ],
-    "type_b_rides": [
-      "SUBT"
-    ],
-    "type_c_rides": [
-      "GANG",
-      "PPAT"
-    ],
-    "qualifications": [
-      "GANG.4.ME.R.S",
-      "GANG.2.DE.C.S",
-      "GANG.4.ME.C.S",
-      "PPAT.2.DE.S",
-      "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
-      "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
-      "RITA.3.WE.R.S",
-      "SUBT.2.DE.R.S"
-    ],
-    "daily_qualifications": [
-      "GANG.2.DE.C.S",
-      "PPAT.2.DE.S",
-      "RITA.2.DE.R.S",
-      "SUBT.2.DE.R.S"
-    ],
-    "coverage_score": 10
-  },
-  "DHARRISON": {
-    "name": "David Harrison",
-    "role": "electrical",
-    "rota_number": 6,
-    "early_ratio": 0.5111111111111111,
-    "critical_early_days": 92,
-    "assigned_rides": [
-      "GANG",
-      "RITA",
-      "SMLR",
-      "SPBL"
-    ],
-    "type_a_rides": [
-      "RITA",
-      "SMLR",
-      "SPBL"
-    ],
-    "type_b_rides": [],
-    "type_c_rides": [
-      "GANG"
-    ],
-    "qualifications": [
-      "GANG.4.ME.R.S",
-      "GANG.2.DE.C.S",
-      "GANG.4.ME.C.S",
-      "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
-      "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
-      "RITA.3.WE.R.S",
-      "SMLR.3.WE.R.S",
-      "SMLR.3.WE.T.S",
-      "SMLR.4.ME.T.S",
-      "SMLR.2.DE.R.S",
-      "SMLR.4.ME.R.S",
-      "SPBL.2.DE.C.S",
-      "SPBL.4.ME.C.S"
-    ],
-    "daily_qualifications": [
-      "GANG.2.DE.C.S",
-      "RITA.2.DE.R.S",
-      "SMLR.2.DE.R.S",
-      "SPBL.2.DE.C.S"
-    ],
-    "coverage_score": 15
-  },
-  "JBENBOW": {
-    "name": "James Benbow",
-    "role": "electrical",
-    "rota_number": 1,
-    "early_ratio": 0.5111111111111111,
-    "critical_early_days": 92,
-    "assigned_rides": [
-      "GLPR",
-      "GSGO",
-      "OBLV",
-      "SPBL"
-    ],
-    "type_a_rides": [
-      "OBLV",
-      "SPBL"
-    ],
-    "type_b_rides": [],
-    "type_c_rides": [
-      "GLPR",
-      "GSGO"
-    ],
-    "qualifications": [
-      "GLPR.3.WE.R.S",
-      "GSGO.2.DE.S",
-      "OBLV.4.ME.R.S",
-      "OBLV.3.WE.M.S",
-      "OBLV.2.DE.R.S",
-      "OBLV.3.WE.T.S",
-      "SPBL.2.DE.C.S",
-      "SPBL.4.ME.C.S"
-    ],
-    "daily_qualifications": [
-      "GSGO.2.DE.S",
-      "OBLV.2.DE.R.S",
-      "SPBL.2.DE.C.S"
-    ],
-    "coverage_score": 8
-  },
-  "NPALLETT": {
-    "name": "Neil Pallett",
-    "role": "electrical",
-    "rota_number": 7,
-    "early_ratio": 0.5111111111111111,
-    "critical_early_days": 92,
-    "assigned_rides": [
-      "GSGO",
-      "OBLV",
-      "RITA",
-      "THRT"
-    ],
-    "type_a_rides": [
-      "OBLV",
-      "RITA",
-      "THRT"
-    ],
-    "type_b_rides": [],
-    "type_c_rides": [
-      "GSGO"
-    ],
-    "qualifications": [
-      "GSGO.2.DE.S",
-      "OBLV.4.ME.R.S",
-      "OBLV.3.WE.M.S",
-      "OBLV.2.DE.R.S",
-      "OBLV.3.WE.T.S",
-      "RITA.3.WE.T.S",
-      "RITA.4.ME.OXY.S",
-      "RITA.4.ME.T.S",
-      "RITA.2.DE.R.S",
-      "RITA.3.WE.R.S",
-      "THRT.3.WE.T.S",
-      "THRT.3.WE.R.S",
-      "THRT.4.ME.R.S",
-      "THRT.4.ME.OXY.S",
-      "THRT.4.ME.T.S",
-      "THRT.2.DE.R.S"
-    ],
-    "daily_qualifications": [
-      "GSGO.2.DE.S",
-      "OBLV.2.DE.R.S",
-      "RITA.2.DE.R.S",
-      "THRT.2.DE.R.S"
-    ],
-    "coverage_score": 16
+    "coverage_score": 12
   },
   "RVAUGHAN": {
     "name": "Richard Vaughan",
@@ -355,33 +399,38 @@
     "critical_early_days": 92,
     "assigned_rides": [
       "DSCH",
-      "GLPR",
-      "SMLR",
-      "SPBL"
+      "GSGO",
+      "OBLV",
+      "SPBL",
+      "SUBT"
     ],
     "type_a_rides": [
-      "SMLR",
+      "OBLV",
       "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
       "DSCH",
-      "GLPR"
+      "GSGO"
     ],
     "qualifications": [
       "DSCH.4.ME.C.S",
-      "GLPR.3.WE.R.S",
-      "SMLR.3.WE.R.S",
-      "SMLR.3.WE.T.S",
-      "SMLR.4.ME.T.S",
-      "SMLR.2.DE.R.S",
-      "SMLR.4.ME.R.S",
+      "GSGO.2.DE.S",
+      "OBLV.2.DE.R.S",
+      "OBLV.3.WE.M.S",
+      "OBLV.3.WE.T.S",
+      "OBLV.4.ME.R.S",
+      "SPBL.4.ME.C.S",
       "SPBL.2.DE.C.S",
-      "SPBL.4.ME.C.S"
+      "SUBT.2.DE.R.S"
     ],
     "daily_qualifications": [
-      "SMLR.2.DE.R.S",
-      "SPBL.2.DE.C.S"
+      "GSGO.2.DE.S",
+      "OBLV.2.DE.R.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S"
     ],
     "coverage_score": 9
   },
@@ -392,40 +441,43 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
-      "DSCH",
-      "GANG",
-      "SUBT",
-      "THRT"
+      "GSGO",
+      "PPAT",
+      "SMLR",
+      "SPBL",
+      "SUBT"
     ],
     "type_a_rides": [
-      "THRT"
+      "SMLR",
+      "SPBL"
     ],
     "type_b_rides": [
       "SUBT"
     ],
     "type_c_rides": [
-      "DSCH",
-      "GANG"
+      "GSGO",
+      "PPAT"
     ],
     "qualifications": [
-      "DSCH.4.ME.C.S",
-      "GANG.4.ME.R.S",
-      "GANG.2.DE.C.S",
-      "GANG.4.ME.C.S",
-      "SUBT.2.DE.R.S",
-      "THRT.3.WE.T.S",
-      "THRT.3.WE.R.S",
-      "THRT.4.ME.R.S",
-      "THRT.4.ME.OXY.S",
-      "THRT.4.ME.T.S",
-      "THRT.2.DE.R.S"
+      "GSGO.2.DE.S",
+      "PPAT.2.DE.S",
+      "SMLR.3.WE.R.S",
+      "SMLR.3.WE.T.S",
+      "SMLR.4.ME.R.S",
+      "SMLR.4.ME.T.S",
+      "SMLR.2.DE.R.S",
+      "SPBL.4.ME.C.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S"
     ],
     "daily_qualifications": [
-      "GANG.2.DE.C.S",
-      "SUBT.2.DE.R.S",
-      "THRT.2.DE.R.S"
+      "GSGO.2.DE.S",
+      "PPAT.2.DE.S",
+      "SMLR.2.DE.R.S",
+      "SPBL.2.DE.C.S",
+      "SUBT.2.DE.R.S"
     ],
-    "coverage_score": 11
+    "coverage_score": 10
   },
   "DFINNEY": {
     "name": "David Finney",
@@ -434,45 +486,52 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GSGO",
-      "JHOU",
-      "OBLV",
+      "FHOP",
+      "HEXL",
+      "NUMT",
+      "SMLR",
       "SPBL"
     ],
     "type_a_rides": [
-      "OBLV",
+      "SMLR",
       "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "HEXL"
+    ],
     "type_c_rides": [
-      "GSGO",
-      "JHOU"
+      "FHOP",
+      "NUMT"
     ],
     "qualifications": [
-      "GSGO.2.DM.S",
-      "GSGO.4.MM.S",
-      "GSGO.4.MM.BUG.S",
-      "JHOU.2.DM.S",
-      "OBLV.4.MM.TZ.S",
-      "OBLV.4.MM.T.S",
-      "OBLV.3.WM.R.S",
-      "OBLV.4.MM.R.S",
-      "OBLV.4.3MM.SPRG.S",
-      "OBLV.3.WM.T.S",
-      "OBLV.2.DM.R.S",
-      "SPBL.4.MM.C.S",
-      "SPBL.3.WM.C.S",
+      "FHOP.2.DM.S",
+      "FHOP.3.WM.S",
+      "HEXL.4.QM.S",
+      "HEXL.2.DM.S",
+      "HEXL.4.MM.S",
+      "NUMT.2.DM.S",
+      "NUMT.3.WM.S",
+      "SMLR.4.MM.T.S",
+      "SMLR.3.WM.GNI.S",
+      "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
+      "SMLR.4.MM.R.S",
       "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
       "SPBL.3.WM.R.S",
       "SPBL.2.DM.C.S"
     ],
     "daily_qualifications": [
-      "GSGO.2.DM.S",
-      "JHOU.2.DM.S",
-      "OBLV.2.DM.R.S",
+      "FHOP.2.DM.S",
+      "HEXL.2.DM.S",
+      "NUMT.2.DM.S",
+      "SMLR.2.DM.R.S",
       "SPBL.2.DM.C.S"
     ],
-    "coverage_score": 16
+    "coverage_score": 19
   },
   "DHEATH": {
     "name": "Derek Heath",
@@ -482,44 +541,52 @@
     "critical_early_days": 112,
     "assigned_rides": [
       "GLPR",
-      "HEXL",
-      "ITNG",
-      "SMLR"
+      "NUMT",
+      "SMLR",
+      "SUBT",
+      "THRT"
     ],
     "type_a_rides": [
-      "SMLR"
+      "SMLR",
+      "THRT"
     ],
     "type_b_rides": [
-      "HEXL"
+      "SUBT"
     ],
     "type_c_rides": [
       "GLPR",
-      "ITNG"
+      "NUMT"
     ],
     "qualifications": [
       "GLPR.3.WM.S",
       "GLPR.2.DM.S",
-      "HEXL.4.MM.S",
-      "HEXL.4.QM.S",
-      "HEXL.2.DM.S",
-      "ITNG.4.MM.S",
-      "ITNG.3.WM.S",
-      "ITNG.2.DM.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
+      "NUMT.2.DM.S",
+      "NUMT.3.WM.S",
+      "SMLR.4.MM.T.S",
       "SMLR.3.WM.GNI.S",
       "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
       "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S"
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S",
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
       "GLPR.2.DM.S",
-      "HEXL.2.DM.S",
-      "ITNG.2.DM.S",
-      "SMLR.2.DM.R.S"
+      "NUMT.2.DM.S",
+      "SMLR.2.DM.R.S",
+      "SUBT.2.DM.S",
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 15
+    "coverage_score": 20
   },
   "IPERCY": {
     "name": "Ian Percy",
@@ -528,43 +595,54 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "DSCH",
-      "PRHH",
-      "RITA",
-      "THRT"
+      "GANG",
+      "HEXL",
+      "OBLV",
+      "PPAT",
+      "SPBL"
     ],
     "type_a_rides": [
-      "RITA",
-      "THRT"
+      "OBLV",
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "HEXL"
+    ],
     "type_c_rides": [
-      "DSCH",
-      "PRHH"
+      "GANG",
+      "PPAT"
     ],
     "qualifications": [
-      "DSCH.2.DM.S",
-      "DSCH.4.MM.S",
-      "PRHH.2.DM.S",
-      "PRHH.3.WM.S",
-      "RITA.4.MM.R.S",
-      "RITA.3.WM.T.S",
-      "RITA.4.MM.T.S",
-      "RITA.3.WM.R.S",
-      "RITA.2.DM.R.S",
-      "THRT.3.WM.R.S",
-      "THRT.3.WM.T.S",
-      "THRT.2.DM.R.S",
-      "THRT.4.MM.R.S",
-      "THRT.4.MM.T.S"
+      "GANG.2.DM.C.S",
+      "GANG.4.MM.C.S",
+      "GANG.3.WM.C.S",
+      "GANG.3.WM.R.S",
+      "GANG.4.MM.R.S",
+      "HEXL.4.QM.S",
+      "HEXL.2.DM.S",
+      "HEXL.4.MM.S",
+      "OBLV.2.DM.R.S",
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
+      "PPAT.2.DM.S",
+      "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
+      "SPBL.3.WM.R.S",
+      "SPBL.2.DM.C.S"
     ],
     "daily_qualifications": [
-      "DSCH.2.DM.S",
-      "PRHH.2.DM.S",
-      "RITA.2.DM.R.S",
-      "THRT.2.DM.R.S"
+      "GANG.2.DM.C.S",
+      "HEXL.2.DM.S",
+      "OBLV.2.DM.R.S",
+      "PPAT.2.DM.S",
+      "SPBL.2.DM.C.S"
     ],
-    "coverage_score": 14
+    "coverage_score": 21
   },
   "JKIRK": {
     "name": "John Kirk",
@@ -573,48 +651,55 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GSGO",
-      "NUMT",
+      "DSCH",
+      "GANG",
+      "HEXL",
       "OBLV",
-      "SMLR"
+      "SPBL"
     ],
     "type_a_rides": [
       "OBLV",
-      "SMLR"
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "HEXL"
+    ],
     "type_c_rides": [
-      "GSGO",
-      "NUMT"
+      "DSCH",
+      "GANG"
     ],
     "qualifications": [
-      "GSGO.2.DM.S",
-      "GSGO.4.MM.S",
-      "GSGO.4.MM.BUG.S",
-      "NUMT.2.DM.S",
-      "NUMT.3.WM.S",
-      "OBLV.4.MM.TZ.S",
-      "OBLV.4.MM.T.S",
-      "OBLV.3.WM.R.S",
-      "OBLV.4.MM.R.S",
-      "OBLV.4.3MM.SPRG.S",
-      "OBLV.3.WM.T.S",
+      "DSCH.4.MM.S",
+      "DSCH.2.DM.S",
+      "GANG.2.DM.C.S",
+      "GANG.4.MM.C.S",
+      "GANG.3.WM.C.S",
+      "GANG.3.WM.R.S",
+      "GANG.4.MM.R.S",
+      "HEXL.4.QM.S",
+      "HEXL.2.DM.S",
+      "HEXL.4.MM.S",
       "OBLV.2.DM.R.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
-      "SMLR.3.WM.GNI.S",
-      "SMLR.3.WM.R.S",
-      "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S"
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
+      "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
+      "SPBL.3.WM.R.S",
+      "SPBL.2.DM.C.S"
     ],
     "daily_qualifications": [
-      "GSGO.2.DM.S",
-      "NUMT.2.DM.S",
+      "DSCH.2.DM.S",
+      "GANG.2.DM.C.S",
+      "HEXL.2.DM.S",
       "OBLV.2.DM.R.S",
-      "SMLR.2.DM.R.S"
+      "SPBL.2.DM.C.S"
     ],
-    "coverage_score": 19
+    "coverage_score": 22
   },
   "KHARNETT": {
     "name": "Kevin Harnett",
@@ -623,41 +708,57 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "JHOU",
-      "PPAT",
+      "GSGO",
+      "ITNG",
       "RITA",
+      "SMLR",
       "SUBT"
     ],
     "type_a_rides": [
-      "RITA"
+      "RITA",
+      "SMLR"
     ],
     "type_b_rides": [
       "SUBT"
     ],
     "type_c_rides": [
-      "JHOU",
-      "PPAT"
+      "GSGO",
+      "ITNG"
     ],
     "qualifications": [
-      "JHOU.2.DM.S",
-      "PPAT.2.DM.S",
-      "RITA.4.MM.R.S",
+      "GSGO.2.DM.S",
+      "GSGO.4.MM.S",
+      "GSGO.4.MM.BUG.S",
+      "ITNG.2.DM.S",
+      "ITNG.3.WM.S",
+      "ITNG.4.MM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
       "RITA.3.WM.T.S",
       "RITA.4.MM.T.S",
       "RITA.3.WM.R.S",
-      "RITA.2.DM.R.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
+      "RITA.4.MM.R.S",
+      "SMLR.4.MM.T.S",
+      "SMLR.3.WM.GNI.S",
+      "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
+      "SMLR.4.MM.R.S",
       "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
-    ],
-    "daily_qualifications": [
-      "JHOU.2.DM.S",
-      "PPAT.2.DM.S",
-      "RITA.2.DM.R.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
       "SUBT.2.DM.S"
     ],
-    "coverage_score": 11
+    "daily_qualifications": [
+      "GSGO.2.DM.S",
+      "ITNG.2.DM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
+      "SMLR.2.DM.R.S",
+      "SUBT.2.DM.S"
+    ],
+    "coverage_score": 23
   },
   "SHOLDEN": {
     "name": "Sam Holden",
@@ -666,45 +767,52 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
+      "HEXL",
       "ITNG",
-      "PPAT",
+      "JHOU",
       "SMLR",
-      "SUBT"
+      "THRT"
     ],
     "type_a_rides": [
-      "SMLR"
+      "SMLR",
+      "THRT"
     ],
     "type_b_rides": [
-      "SUBT"
+      "HEXL"
     ],
     "type_c_rides": [
       "ITNG",
-      "PPAT"
+      "JHOU"
     ],
     "qualifications": [
-      "ITNG.4.MM.S",
-      "ITNG.3.WM.S",
+      "HEXL.4.QM.S",
+      "HEXL.2.DM.S",
+      "HEXL.4.MM.S",
       "ITNG.2.DM.S",
-      "PPAT.2.DM.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
+      "ITNG.3.WM.S",
+      "ITNG.4.MM.S",
+      "JHOU.2.DM.S",
+      "SMLR.4.MM.T.S",
       "SMLR.3.WM.GNI.S",
       "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
       "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
-      "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
+      "HEXL.2.DM.S",
       "ITNG.2.DM.S",
-      "PPAT.2.DM.S",
+      "JHOU.2.DM.S",
       "SMLR.2.DM.R.S",
-      "SUBT.2.DM.S"
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 15
+    "coverage_score": 19
   },
   "APFRENCH": {
     "name": "Alex Perry-French",
@@ -714,15 +822,18 @@
     "critical_early_days": 112,
     "assigned_rides": [
       "FHOP",
+      "OBLV",
       "PRHH",
-      "RITA",
-      "SMLR"
+      "SMLR",
+      "SUBT"
     ],
     "type_a_rides": [
-      "RITA",
+      "OBLV",
       "SMLR"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
       "FHOP",
       "PRHH"
@@ -730,28 +841,35 @@
     "qualifications": [
       "FHOP.2.DM.S",
       "FHOP.3.WM.S",
-      "PRHH.2.DM.S",
+      "OBLV.2.DM.R.S",
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
       "PRHH.3.WM.S",
-      "RITA.4.MM.R.S",
-      "RITA.3.WM.T.S",
-      "RITA.4.MM.T.S",
-      "RITA.3.WM.R.S",
-      "RITA.2.DM.R.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
+      "PRHH.2.DM.S",
+      "SMLR.4.MM.T.S",
       "SMLR.3.WM.GNI.S",
       "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
       "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S"
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S"
     ],
     "daily_qualifications": [
       "FHOP.2.DM.S",
+      "OBLV.2.DM.R.S",
       "PRHH.2.DM.S",
-      "RITA.2.DM.R.S",
-      "SMLR.2.DM.R.S"
+      "SMLR.2.DM.R.S",
+      "SUBT.2.DM.S"
     ],
-    "coverage_score": 16
+    "coverage_score": 22
   },
   "LSMITH": {
     "name": "Leo Smith",
@@ -760,46 +878,52 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GANG",
-      "GLPR",
+      "NUMT",
+      "OBLV",
+      "PPAT",
       "SPBL",
-      "THRT"
+      "SUBT"
     ],
     "type_a_rides": [
-      "SPBL",
-      "THRT"
+      "OBLV",
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
-      "GANG",
-      "GLPR"
+      "NUMT",
+      "PPAT"
     ],
     "qualifications": [
-      "GANG.2.DM.C.S",
-      "GANG.4.MM.C.S",
-      "GANG.4.MM.R.S",
-      "GANG.3.WM.R.S",
-      "GANG.3.WM.C.S",
-      "GLPR.3.WM.S",
-      "GLPR.2.DM.S",
-      "SPBL.4.MM.C.S",
-      "SPBL.3.WM.C.S",
+      "NUMT.2.DM.S",
+      "NUMT.3.WM.S",
+      "OBLV.2.DM.R.S",
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
+      "PPAT.2.DM.S",
       "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
       "SPBL.3.WM.R.S",
       "SPBL.2.DM.C.S",
-      "THRT.3.WM.R.S",
-      "THRT.3.WM.T.S",
-      "THRT.2.DM.R.S",
-      "THRT.4.MM.R.S",
-      "THRT.4.MM.T.S"
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S"
     ],
     "daily_qualifications": [
-      "GANG.2.DM.C.S",
-      "GLPR.2.DM.S",
+      "NUMT.2.DM.S",
+      "OBLV.2.DM.R.S",
+      "PPAT.2.DM.S",
       "SPBL.2.DM.C.S",
-      "THRT.2.DM.R.S"
+      "SUBT.2.DM.S"
     ],
-    "coverage_score": 17
+    "coverage_score": 19
   },
   "CLEE": {
     "name": "Cameron Lee",
@@ -808,46 +932,55 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "NUMT",
+      "DSCH",
       "OBLV",
-      "PPAT",
-      "SMLR"
+      "PRHH",
+      "RITA",
+      "SUBT"
     ],
     "type_a_rides": [
       "OBLV",
-      "SMLR"
+      "RITA"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
-      "NUMT",
-      "PPAT"
+      "DSCH",
+      "PRHH"
     ],
     "qualifications": [
-      "NUMT.2.DM.S",
-      "NUMT.3.WM.S",
-      "OBLV.4.MM.TZ.S",
-      "OBLV.4.MM.T.S",
-      "OBLV.3.WM.R.S",
-      "OBLV.4.MM.R.S",
-      "OBLV.4.3MM.SPRG.S",
-      "OBLV.3.WM.T.S",
+      "DSCH.4.MM.S",
+      "DSCH.2.DM.S",
       "OBLV.2.DM.R.S",
-      "PPAT.2.DM.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
-      "SMLR.3.WM.GNI.S",
-      "SMLR.3.WM.R.S",
-      "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S"
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
+      "PRHH.3.WM.S",
+      "PRHH.2.DM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
+      "RITA.3.WM.T.S",
+      "RITA.4.MM.T.S",
+      "RITA.3.WM.R.S",
+      "RITA.4.MM.R.S",
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S"
     ],
     "daily_qualifications": [
-      "NUMT.2.DM.S",
+      "DSCH.2.DM.S",
       "OBLV.2.DM.R.S",
-      "PPAT.2.DM.S",
-      "SMLR.2.DM.R.S"
+      "PRHH.2.DM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
+      "SUBT.2.DM.S"
     ],
-    "coverage_score": 17
+    "coverage_score": 21
   },
   "JHAMER": {
     "name": "Jack Hamer",
@@ -856,44 +989,54 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "FHOP",
-      "JHOU",
-      "OBLV",
+      "GSGO",
+      "PRHH",
+      "SMLR",
+      "SPBL",
       "SUBT"
     ],
     "type_a_rides": [
-      "OBLV"
+      "SMLR",
+      "SPBL"
     ],
     "type_b_rides": [
       "SUBT"
     ],
     "type_c_rides": [
-      "FHOP",
-      "JHOU"
+      "GSGO",
+      "PRHH"
     ],
     "qualifications": [
-      "FHOP.2.DM.S",
-      "FHOP.3.WM.S",
-      "JHOU.2.DM.S",
-      "OBLV.4.MM.TZ.S",
-      "OBLV.4.MM.T.S",
-      "OBLV.3.WM.R.S",
-      "OBLV.4.MM.R.S",
-      "OBLV.4.3MM.SPRG.S",
-      "OBLV.3.WM.T.S",
-      "OBLV.2.DM.R.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
+      "GSGO.2.DM.S",
+      "GSGO.4.MM.S",
+      "GSGO.4.MM.BUG.S",
+      "PRHH.3.WM.S",
+      "PRHH.2.DM.S",
+      "SMLR.4.MM.T.S",
+      "SMLR.3.WM.GNI.S",
+      "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
+      "SMLR.4.MM.R.S",
+      "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
+      "SPBL.3.WM.R.S",
+      "SPBL.2.DM.C.S",
       "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
-    ],
-    "daily_qualifications": [
-      "FHOP.2.DM.S",
-      "JHOU.2.DM.S",
-      "OBLV.2.DM.R.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
       "SUBT.2.DM.S"
     ],
-    "coverage_score": 14
+    "daily_qualifications": [
+      "GSGO.2.DM.S",
+      "PRHH.2.DM.S",
+      "SMLR.2.DM.R.S",
+      "SPBL.2.DM.C.S",
+      "SUBT.2.DM.S"
+    ],
+    "coverage_score": 21
   },
   "JBRENTON": {
     "name": "Joshua Brenton",
@@ -902,44 +1045,56 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GLPR",
-      "GSGO",
+      "GANG",
+      "NUMT",
       "RITA",
-      "THRT"
+      "SPBL",
+      "SUBT"
     ],
     "type_a_rides": [
       "RITA",
-      "THRT"
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
-      "GLPR",
-      "GSGO"
+      "GANG",
+      "NUMT"
     ],
     "qualifications": [
-      "GLPR.3.WM.S",
-      "GLPR.2.DM.S",
-      "GSGO.2.DM.S",
-      "GSGO.4.MM.S",
-      "GSGO.4.MM.BUG.S",
-      "RITA.4.MM.R.S",
+      "GANG.2.DM.C.S",
+      "GANG.4.MM.C.S",
+      "GANG.3.WM.C.S",
+      "GANG.3.WM.R.S",
+      "GANG.4.MM.R.S",
+      "NUMT.2.DM.S",
+      "NUMT.3.WM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
       "RITA.3.WM.T.S",
       "RITA.4.MM.T.S",
       "RITA.3.WM.R.S",
-      "RITA.2.DM.R.S",
-      "THRT.3.WM.R.S",
-      "THRT.3.WM.T.S",
-      "THRT.2.DM.R.S",
-      "THRT.4.MM.R.S",
-      "THRT.4.MM.T.S"
+      "RITA.4.MM.R.S",
+      "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
+      "SPBL.3.WM.R.S",
+      "SPBL.2.DM.C.S",
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S"
     ],
     "daily_qualifications": [
-      "GLPR.2.DM.S",
-      "GSGO.2.DM.S",
+      "GANG.2.DM.C.S",
+      "NUMT.2.DM.S",
+      "RITA.2.DM.T.S",
       "RITA.2.DM.R.S",
-      "THRT.2.DM.R.S"
+      "SPBL.2.DM.C.S",
+      "SUBT.2.DM.S"
     ],
-    "coverage_score": 15
+    "coverage_score": 22
   },
   "LBEDFORD": {
     "name": "Leon Bedford",
@@ -948,41 +1103,53 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "HEXL",
-      "NUMT",
+      "ITNG",
+      "OBLV",
       "PPAT",
+      "SUBT",
       "THRT"
     ],
     "type_a_rides": [
+      "OBLV",
       "THRT"
     ],
     "type_b_rides": [
-      "HEXL"
+      "SUBT"
     ],
     "type_c_rides": [
-      "NUMT",
+      "ITNG",
       "PPAT"
     ],
     "qualifications": [
-      "HEXL.4.MM.S",
-      "HEXL.4.QM.S",
-      "HEXL.2.DM.S",
-      "NUMT.2.DM.S",
-      "NUMT.3.WM.S",
+      "ITNG.2.DM.S",
+      "ITNG.3.WM.S",
+      "ITNG.4.MM.S",
+      "OBLV.2.DM.R.S",
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
       "PPAT.2.DM.S",
-      "THRT.3.WM.R.S",
-      "THRT.3.WM.T.S",
-      "THRT.2.DM.R.S",
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S",
       "THRT.4.MM.R.S",
-      "THRT.4.MM.T.S"
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "HEXL.2.DM.S",
-      "NUMT.2.DM.S",
+      "ITNG.2.DM.S",
+      "OBLV.2.DM.R.S",
       "PPAT.2.DM.S",
+      "SUBT.2.DM.S",
       "THRT.2.DM.R.S"
     ],
-    "coverage_score": 11
+    "coverage_score": 20
   },
   "MJELFS": {
     "name": "Max Jelfs",
@@ -991,46 +1158,52 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "DSCH",
-      "GANG",
-      "SPBL",
-      "SUBT"
+      "GSGO",
+      "HEXL",
+      "JHOU",
+      "SMLR",
+      "THRT"
     ],
     "type_a_rides": [
-      "SPBL"
+      "SMLR",
+      "THRT"
     ],
     "type_b_rides": [
-      "SUBT"
+      "HEXL"
     ],
     "type_c_rides": [
-      "DSCH",
-      "GANG"
+      "GSGO",
+      "JHOU"
     ],
     "qualifications": [
-      "DSCH.2.DM.S",
-      "DSCH.4.MM.S",
-      "GANG.2.DM.C.S",
-      "GANG.4.MM.C.S",
-      "GANG.4.MM.R.S",
-      "GANG.3.WM.R.S",
-      "GANG.3.WM.C.S",
-      "SPBL.4.MM.C.S",
-      "SPBL.3.WM.C.S",
-      "SPBL.4.MM.R.S",
-      "SPBL.3.WM.R.S",
-      "SPBL.2.DM.C.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
-      "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
+      "GSGO.2.DM.S",
+      "GSGO.4.MM.S",
+      "GSGO.4.MM.BUG.S",
+      "HEXL.4.QM.S",
+      "HEXL.2.DM.S",
+      "HEXL.4.MM.S",
+      "JHOU.2.DM.S",
+      "SMLR.4.MM.T.S",
+      "SMLR.3.WM.GNI.S",
+      "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
+      "SMLR.4.MM.R.S",
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "DSCH.2.DM.S",
-      "GANG.2.DM.C.S",
-      "SPBL.2.DM.C.S",
-      "SUBT.2.DM.S"
+      "GSGO.2.DM.S",
+      "HEXL.2.DM.S",
+      "JHOU.2.DM.S",
+      "SMLR.2.DM.R.S",
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 16
+    "coverage_score": 19
   },
   "RPARKER": {
     "name": "Robert Parker",
@@ -1039,43 +1212,50 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GLPR",
-      "PRHH",
+      "DSCH",
+      "JHOU",
       "SPBL",
-      "SUBT"
+      "SUBT",
+      "THRT"
     ],
     "type_a_rides": [
-      "SPBL"
+      "SPBL",
+      "THRT"
     ],
     "type_b_rides": [
       "SUBT"
     ],
     "type_c_rides": [
-      "GLPR",
-      "PRHH"
+      "DSCH",
+      "JHOU"
     ],
     "qualifications": [
-      "GLPR.3.WM.S",
-      "GLPR.2.DM.S",
-      "PRHH.2.DM.S",
-      "PRHH.3.WM.S",
-      "SPBL.4.MM.C.S",
-      "SPBL.3.WM.C.S",
+      "DSCH.4.MM.S",
+      "DSCH.2.DM.S",
+      "JHOU.2.DM.S",
       "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
       "SPBL.3.WM.R.S",
       "SPBL.2.DM.C.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
       "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S",
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "GLPR.2.DM.S",
-      "PRHH.2.DM.S",
+      "DSCH.2.DM.S",
+      "JHOU.2.DM.S",
       "SPBL.2.DM.C.S",
-      "SUBT.2.DM.S"
+      "SUBT.2.DM.S",
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 13
+    "coverage_score": 17
   },
   "JBOOTH": {
     "name": "John Booth",
@@ -1084,48 +1264,53 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "DSCH",
-      "RITA",
-      "SMLR",
-      "THRT"
+      "FHOP",
+      "GLPR",
+      "OBLV",
+      "SPBL",
+      "SUBT"
     ],
     "type_a_rides": [
-      "RITA",
-      "SMLR",
-      "THRT"
+      "OBLV",
+      "SPBL"
     ],
-    "type_b_rides": [],
+    "type_b_rides": [
+      "SUBT"
+    ],
     "type_c_rides": [
-      "DSCH"
+      "FHOP",
+      "GLPR"
     ],
     "qualifications": [
-      "DSCH.2.DM.S",
-      "DSCH.4.MM.S",
-      "RITA.4.MM.R.S",
-      "RITA.3.WM.T.S",
-      "RITA.4.MM.T.S",
-      "RITA.3.WM.R.S",
-      "RITA.2.DM.R.S",
-      "SMLR.3.WM.T.S",
-      "SMLR.2.DM.R.S",
-      "SMLR.4.MM.CLM.S",
-      "SMLR.3.WM.GNI.S",
-      "SMLR.3.WM.R.S",
-      "SMLR.4.MM.R.S",
-      "SMLR.4.MM.T.S",
-      "THRT.3.WM.R.S",
-      "THRT.3.WM.T.S",
-      "THRT.2.DM.R.S",
-      "THRT.4.MM.R.S",
-      "THRT.4.MM.T.S"
+      "FHOP.2.DM.S",
+      "FHOP.3.WM.S",
+      "GLPR.3.WM.S",
+      "GLPR.2.DM.S",
+      "OBLV.2.DM.R.S",
+      "OBLV.4.MM.T.S",
+      "OBLV.4.3MM.SPRG.S",
+      "OBLV.4.MM.R.S",
+      "OBLV.3.WM.T.S",
+      "OBLV.4.MM.TZ.S",
+      "OBLV.3.WM.R.S",
+      "SPBL.4.MM.R.S",
+      "SPBL.3.WM.C.S",
+      "SPBL.4.MM.C.S",
+      "SPBL.3.WM.R.S",
+      "SPBL.2.DM.C.S",
+      "SUBT.3.WM.S",
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S"
     ],
     "daily_qualifications": [
-      "DSCH.2.DM.S",
-      "RITA.2.DM.R.S",
-      "SMLR.2.DM.R.S",
-      "THRT.2.DM.R.S"
+      "FHOP.2.DM.S",
+      "GLPR.2.DM.S",
+      "OBLV.2.DM.R.S",
+      "SPBL.2.DM.C.S",
+      "SUBT.2.DM.S"
     ],
-    "coverage_score": 19
+    "coverage_score": 20
   },
   "SCOHEN": {
     "name": "Shaun Cohen",
@@ -1134,45 +1319,51 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "FHOP",
       "HEXL",
-      "ITNG",
-      "OBLV"
+      "PPAT",
+      "PRHH",
+      "RITA",
+      "THRT"
     ],
     "type_a_rides": [
-      "OBLV"
+      "RITA",
+      "THRT"
     ],
     "type_b_rides": [
       "HEXL"
     ],
     "type_c_rides": [
-      "FHOP",
-      "ITNG"
+      "PPAT",
+      "PRHH"
     ],
     "qualifications": [
-      "FHOP.2.DM.S",
-      "FHOP.3.WM.S",
-      "HEXL.4.MM.S",
       "HEXL.4.QM.S",
       "HEXL.2.DM.S",
-      "ITNG.4.MM.S",
-      "ITNG.3.WM.S",
-      "ITNG.2.DM.S",
-      "OBLV.4.MM.TZ.S",
-      "OBLV.4.MM.T.S",
-      "OBLV.3.WM.R.S",
-      "OBLV.4.MM.R.S",
-      "OBLV.4.3MM.SPRG.S",
-      "OBLV.3.WM.T.S",
-      "OBLV.2.DM.R.S"
+      "HEXL.4.MM.S",
+      "PPAT.2.DM.S",
+      "PRHH.3.WM.S",
+      "PRHH.2.DM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
+      "RITA.3.WM.T.S",
+      "RITA.4.MM.T.S",
+      "RITA.3.WM.R.S",
+      "RITA.4.MM.R.S",
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "FHOP.2.DM.S",
       "HEXL.2.DM.S",
-      "ITNG.2.DM.S",
-      "OBLV.2.DM.R.S"
+      "PPAT.2.DM.S",
+      "PRHH.2.DM.S",
+      "RITA.2.DM.T.S",
+      "RITA.2.DM.R.S",
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 15
+    "coverage_score": 17
   },
   "TTHORNTON": {
     "name": "Thomas Thornton",
@@ -1181,43 +1372,53 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GANG",
-      "HEXL",
+      "GLPR",
       "ITNG",
-      "SUBT"
+      "SMLR",
+      "SUBT",
+      "THRT"
     ],
-    "type_a_rides": [],
+    "type_a_rides": [
+      "SMLR",
+      "THRT"
+    ],
     "type_b_rides": [
-      "HEXL",
       "SUBT"
     ],
     "type_c_rides": [
-      "GANG",
+      "GLPR",
       "ITNG"
     ],
     "qualifications": [
-      "GANG.2.DM.C.S",
-      "GANG.4.MM.C.S",
-      "GANG.4.MM.R.S",
-      "GANG.3.WM.R.S",
-      "GANG.3.WM.C.S",
-      "HEXL.4.MM.S",
-      "HEXL.4.QM.S",
-      "HEXL.2.DM.S",
-      "ITNG.4.MM.S",
-      "ITNG.3.WM.S",
+      "GLPR.3.WM.S",
+      "GLPR.2.DM.S",
       "ITNG.2.DM.S",
-      "SUBT.2.DM.S",
-      "SUBT.4.MM.S",
+      "ITNG.3.WM.S",
+      "ITNG.4.MM.S",
+      "SMLR.4.MM.T.S",
+      "SMLR.3.WM.GNI.S",
+      "SMLR.3.WM.R.S",
+      "SMLR.2.DM.R.S",
+      "SMLR.3.WM.T.S",
+      "SMLR.4.MM.CLM.S",
+      "SMLR.4.MM.R.S",
       "SUBT.3.WM.S",
-      "SUBT.3.WM.LBAR.S"
+      "SUBT.4.MM.S",
+      "SUBT.3.WM.LBAR.S",
+      "SUBT.2.DM.S",
+      "THRT.4.MM.R.S",
+      "THRT.2.DM.R.S",
+      "THRT.4.MM.T.S",
+      "THRT.3.WM.T.S",
+      "THRT.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "GANG.2.DM.C.S",
-      "HEXL.2.DM.S",
+      "GLPR.2.DM.S",
       "ITNG.2.DM.S",
-      "SUBT.2.DM.S"
+      "SMLR.2.DM.R.S",
+      "SUBT.2.DM.S",
+      "THRT.2.DM.R.S"
     ],
-    "coverage_score": 15
+    "coverage_score": 21
   }
 }

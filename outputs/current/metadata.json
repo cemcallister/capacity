@@ -1,6 +1,6 @@
 {
   "optimization_name": "milp_mathematical",
-  "created_timestamp": "2025-06-20T12:10:54.091258",
+  "created_timestamp": "2025-06-20T21:44:12.943716",
   "optimization_config": {
     "approach": "milp_mathematical",
     "features": [
@@ -24,6 +24,6 @@
   ],
   "total_engineers": {
     "1": 27,
-    "2": 32
+    "2": 31
   }
 }

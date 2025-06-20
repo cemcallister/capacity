@@ -126,9 +126,9 @@ def run_milp_optimization(optimizer):
     print("\n🔢 RUNNING MILP MATHEMATICAL OPTIMIZATION...")
     designer = MILPOptimizationDesigner(optimizer)
     matrices = designer.create_optimized_qualification_matrices()
-    validation_results = designer.validate_and_export_results(matrices)
+    validation_results, assignment_counts = designer.validate_and_export_results(matrices)
     
-    return matrices, validation_results, {
+    return matrices, validation_results, assignment_counts, {
         "approach": "milp_mathematical",
         "features": [
             "mathematical_optimization",
@@ -175,6 +175,8 @@ def main():
         optimizer.generate_report()  # This loads and analyzes all data
         
         # Step 2: Run selected optimization
+        assignment_counts = None  # Initialize assignment_counts for all methods
+        
         if choice == '1':
             matrices, validation_results, config = run_classic_optimization(optimizer)
             optimization_name = "classic_balanced"
@@ -188,7 +190,7 @@ def main():
             matrices, validation_results, config = run_balanced_optimization(optimizer)
             optimization_name = "balanced_coverage"
         elif choice == '5':
-            matrices, validation_results, config = run_milp_optimization(optimizer)
+            matrices, validation_results, assignment_counts, config = run_milp_optimization(optimizer)
             optimization_name = "milp_mathematical"
         
         # Step 3: Save to standardized location
@@ -201,6 +203,47 @@ def main():
             optimization_config=config,
             validation_results=validation_results
         )
+        
+        # Step 3.5: Save assignment counts if available (MILP optimization)
+        if assignment_counts is not None:
+            import json
+            assignment_counts_path = output_manager.current_dir / "engineer_assignment_counts.json"
+            print(f"   💾 Saving engineer assignment counts to: {assignment_counts_path}")
+            
+            with open(assignment_counts_path, 'w') as f:
+                json.dump(assignment_counts, f, indent=2)
+            
+            # Display summary of assignment counts
+            print("\n📊 ENGINEER ASSIGNMENT COUNTS SUMMARY:")
+            for team_key, team_data in assignment_counts.items():
+                team_num = team_key.split('_')[1]
+                print(f"\n🏢 TEAM {team_num}:")
+                
+                # Calculate statistics
+                total_rides = len(team_data)
+                total_engineers = sum(ride_data['total_count'] for ride_data in team_data.values())
+                avg_engineers_per_ride = total_engineers / total_rides if total_rides > 0 else 0
+                
+                electrical_engineers = sum(ride_data['electrical_count'] for ride_data in team_data.values())
+                mechanical_engineers = sum(ride_data['mechanical_count'] for ride_data in team_data.values())
+                
+                print(f"   Total rides: {total_rides}")
+                print(f"   Total engineer assignments: {total_engineers}")
+                print(f"   Average engineers per ride: {avg_engineers_per_ride:.1f}")
+                print(f"   Electrical engineers: {electrical_engineers}")
+                print(f"   Mechanical engineers: {mechanical_engineers}")
+                
+                # Show rides with highest/lowest coverage
+                if team_data:
+                    ride_counts = [(ride_id, data['total_count'], data['ride_name']) 
+                                  for ride_id, data in team_data.items()]
+                    ride_counts.sort(key=lambda x: x[1])
+                    
+                    min_ride = ride_counts[0]
+                    max_ride = ride_counts[-1]
+                    
+                    print(f"   Lowest coverage: {min_ride[2]} ({min_ride[1]} engineers)")
+                    print(f"   Highest coverage: {max_ride[2]} ({max_ride[1]} engineers)")
         
         # Step 4: Display summary
         print("\n📈 OPTIMIZATION RESULTS SUMMARY:")

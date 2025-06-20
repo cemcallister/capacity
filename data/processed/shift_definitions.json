@@ -31,19 +31,19 @@
   "ppm_windows": {
     "AM_PPM": {
       "label": "Morning PPM Window",
-      "time": ["06:00", "09:00"],
-      "duration_hours": 3,
+      "time": ["06:00", "09:30"],
+      "duration_hours": 3.5,
       "compatible_shifts": ["E"],
       "valid_for": ["daily", "weekly", "monthly"],
-      "description": "3-hour morning window for all PPM types"
+      "description": "3.5-hour morning window for all PPM types"
     },
     "PM_PPM": {
       "label": "Evening PPM Window", 
-      "time": ["19:00", "22:00"],
-      "duration_hours": 3,
+      "time": ["19:00", "22:30"],
+      "duration_hours": 3.5,
       "compatible_shifts": ["L"],
       "valid_for": ["weekly", "monthly"],
-      "description": "3-hour evening window for weekly/monthly PPMs only"
+      "description": "3.5-hour evening window for weekly/monthly PPMs only"
     }
   }
 }

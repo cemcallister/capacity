@@ -6,10 +6,11 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
-      "GOJT",
-      "MONO",
+      "BTGA",
+      "CRSE",
+      "MMAY",
       "NEME",
-      "RAPD",
+      "RMTR",
       "WICK"
     ],
     "type_a_rides": [
@@ -17,37 +18,35 @@
       "WICK"
     ],
     "type_b_rides": [
-      "GOJT",
-      "MONO"
+      "BTGA",
+      "CRSE",
+      "RMTR"
     ],
     "type_c_rides": [
-      "RAPD"
+      "MMAY"
     ],
     "qualifications": [
-      "GOJT.2.DE.S",
-      "MONO.2.DE.T.S",
-      "MONO.4.ME.T.S",
-      "MONO.4.ME.D.S",
-      "MONO.4.ME.R.S",
-      "NEME.4.ME.R.S",
+      "BTGA.2.DE.S",
+      "CRSE.4.ME.S",
+      "CRSE.3.WE.C.S",
+      "MMAY.4.ME.S",
       "NEME.4.ME.T.S",
       "NEME.2.DE.R.S",
-      "RAPD.2.DE.R.S",
-      "RAPD.3.WE.R.S",
+      "NEME.4.ME.R.S",
+      "RMTR.2.DE.R.S",
       "WICK.2.DE.T.S",
-      "WICK.3.WE.R.S",
       "WICK.2.DE.R.S",
+      "WICK.3.WE.R.S",
       "WICK.4.ME.R.S"
     ],
     "daily_qualifications": [
-      "GOJT.2.DE.S",
-      "MONO.2.DE.T.S",
+      "BTGA.2.DE.S",
       "NEME.2.DE.R.S",
-      "RAPD.2.DE.R.S",
+      "RMTR.2.DE.R.S",
       "WICK.2.DE.T.S",
       "WICK.2.DE.R.S"
     ],
-    "coverage_score": 14
+    "coverage_score": 12
   },
   "KLOWE": {
     "name": "Kevin Lowe",
@@ -56,43 +55,48 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
-      "GALA",
-      "HVHO",
-      "MMAY",
+      "BTGA",
+      "MONO",
       "NEME",
-      "OCTO"
+      "OCTO",
+      "RAPD",
+      "SKYR"
     ],
     "type_a_rides": [
-      "GALA",
-      "NEME"
+      "NEME",
+      "SKYR"
     ],
     "type_b_rides": [
+      "BTGA",
+      "MONO",
       "OCTO"
     ],
     "type_c_rides": [
-      "HVHO",
-      "MMAY"
+      "RAPD"
     ],
     "qualifications": [
-      "GALA.3.WE.GALP.S",
-      "GALA.4.ME.R.S",
-      "GALA.2.DE.R.S",
-      "GALA.3.DE.T.S",
-      "HVHO.2.DE.S",
-      "MMAY.4.ME.S",
-      "NEME.4.ME.R.S",
+      "BTGA.2.DE.S",
+      "MONO.4.ME.D.S",
+      "MONO.4.ME.T.S",
+      "MONO.4.ME.R.S",
+      "MONO.2.DE.T.S",
       "NEME.4.ME.T.S",
       "NEME.2.DE.R.S",
+      "NEME.4.ME.R.S",
       "OCTO.3.WE.R.S",
-      "OCTO.2.DE.R.S"
+      "OCTO.2.DE.R.S",
+      "RAPD.3.WE.R.S",
+      "RAPD.2.DE.R.S",
+      "SKYR.4.ME.R.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DE.R.S",
-      "HVHO.2.DE.S",
+      "BTGA.2.DE.S",
+      "MONO.2.DE.T.S",
       "NEME.2.DE.R.S",
-      "OCTO.2.DE.R.S"
+      "OCTO.2.DE.R.S",
+      "RAPD.2.DE.R.S"
     ],
-    "coverage_score": 11
+    "coverage_score": 13
   },
   "MLOVATT": {
     "name": "Mark Lovatt",
@@ -103,44 +107,45 @@
     "assigned_rides": [
       "BTGA",
       "GALA",
-      "RAPD",
-      "RMTR",
-      "WICK"
+      "GOJT",
+      "HVHO",
+      "NEME",
+      "RMTR"
     ],
     "type_a_rides": [
       "GALA",
-      "WICK"
+      "NEME"
     ],
     "type_b_rides": [
       "BTGA",
+      "GOJT",
       "RMTR"
     ],
     "type_c_rides": [
-      "RAPD"
+      "HVHO"
     ],
     "qualifications": [
       "BTGA.2.DE.S",
+      "GALA.2.DE.R.S",
       "GALA.3.WE.GALP.S",
       "GALA.4.ME.R.S",
-      "GALA.2.DE.R.S",
       "GALA.3.DE.T.S",
-      "RAPD.2.DE.R.S",
-      "RAPD.3.WE.R.S",
-      "RMTR.2.DE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.3.WE.R.S",
-      "WICK.2.DE.R.S",
-      "WICK.4.ME.R.S"
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
+      "NEME.4.ME.T.S",
+      "NEME.2.DE.R.S",
+      "NEME.4.ME.R.S",
+      "RMTR.2.DE.R.S"
     ],
     "daily_qualifications": [
       "BTGA.2.DE.S",
       "GALA.2.DE.R.S",
-      "RAPD.2.DE.R.S",
-      "RMTR.2.DE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.2.DE.R.S"
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
+      "NEME.2.DE.R.S",
+      "RMTR.2.DE.R.S"
     ],
-    "coverage_score": 12
+    "coverage_score": 11
   },
   "MDOYLE": {
     "name": "Michael Doyle",
@@ -150,41 +155,49 @@
     "critical_early_days": 92,
     "assigned_rides": [
       "GOJT",
-      "HVHO",
       "MONO",
       "OCTO",
-      "RAPD"
+      "RAPD",
+      "SKYR",
+      "WICK"
     ],
-    "type_a_rides": [],
+    "type_a_rides": [
+      "SKYR",
+      "WICK"
+    ],
     "type_b_rides": [
       "GOJT",
       "MONO",
       "OCTO"
     ],
     "type_c_rides": [
-      "HVHO",
       "RAPD"
     ],
     "qualifications": [
       "GOJT.2.DE.S",
-      "HVHO.2.DE.S",
-      "MONO.2.DE.T.S",
-      "MONO.4.ME.T.S",
       "MONO.4.ME.D.S",
+      "MONO.4.ME.T.S",
       "MONO.4.ME.R.S",
+      "MONO.2.DE.T.S",
       "OCTO.3.WE.R.S",
       "OCTO.2.DE.R.S",
+      "RAPD.3.WE.R.S",
       "RAPD.2.DE.R.S",
-      "RAPD.3.WE.R.S"
+      "SKYR.4.ME.R.S",
+      "WICK.2.DE.T.S",
+      "WICK.2.DE.R.S",
+      "WICK.3.WE.R.S",
+      "WICK.4.ME.R.S"
     ],
     "daily_qualifications": [
       "GOJT.2.DE.S",
-      "HVHO.2.DE.S",
       "MONO.2.DE.T.S",
       "OCTO.2.DE.R.S",
-      "RAPD.2.DE.R.S"
+      "RAPD.2.DE.R.S",
+      "WICK.2.DE.T.S",
+      "WICK.2.DE.R.S"
     ],
-    "coverage_score": 10
+    "coverage_score": 14
   },
   "AYEOMANS": {
     "name": "Adam Yeomans",
@@ -193,89 +206,45 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
+      "BTGA",
       "CRSE",
-      "GOJT",
-      "MONO",
+      "NEME",
       "RAPD",
+      "RMTR",
       "WICK"
     ],
     "type_a_rides": [
+      "NEME",
       "WICK"
     ],
     "type_b_rides": [
+      "BTGA",
       "CRSE",
-      "GOJT",
-      "MONO"
+      "RMTR"
     ],
     "type_c_rides": [
       "RAPD"
     ],
     "qualifications": [
-      "CRSE.3.WE.C.S",
+      "BTGA.2.DE.S",
       "CRSE.4.ME.S",
-      "GOJT.2.DE.S",
-      "MONO.2.DE.T.S",
-      "MONO.4.ME.T.S",
-      "MONO.4.ME.D.S",
-      "MONO.4.ME.R.S",
-      "RAPD.2.DE.R.S",
+      "CRSE.3.WE.C.S",
+      "NEME.4.ME.T.S",
+      "NEME.2.DE.R.S",
+      "NEME.4.ME.R.S",
       "RAPD.3.WE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.3.WE.R.S",
-      "WICK.2.DE.R.S",
-      "WICK.4.ME.R.S"
-    ],
-    "daily_qualifications": [
-      "GOJT.2.DE.S",
-      "MONO.2.DE.T.S",
       "RAPD.2.DE.R.S",
+      "RMTR.2.DE.R.S",
       "WICK.2.DE.T.S",
-      "WICK.2.DE.R.S"
-    ],
-    "coverage_score": 13
-  },
-  "VACANCYE7": {
-    "name": "VacancyE7",
-    "role": "electrical",
-    "rota_number": 7,
-    "early_ratio": 0.5,
-    "critical_early_days": 25,
-    "assigned_rides": [
-      "CRSE",
-      "GALA",
-      "MMAY",
-      "OCTO",
-      "WICK"
-    ],
-    "type_a_rides": [
-      "GALA",
-      "WICK"
-    ],
-    "type_b_rides": [
-      "CRSE",
-      "OCTO"
-    ],
-    "type_c_rides": [
-      "MMAY"
-    ],
-    "qualifications": [
-      "CRSE.3.WE.C.S",
-      "CRSE.4.ME.S",
-      "GALA.3.WE.GALP.S",
-      "GALA.4.ME.R.S",
-      "GALA.2.DE.R.S",
-      "GALA.3.DE.T.S",
-      "MMAY.4.ME.S",
-      "OCTO.3.WE.R.S",
-      "OCTO.2.DE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.3.WE.R.S",
       "WICK.2.DE.R.S",
+      "WICK.3.WE.R.S",
       "WICK.4.ME.R.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DE.R.S",
-      "OCTO.2.DE.R.S",
+      "BTGA.2.DE.S",
+      "NEME.2.DE.R.S",
+      "RAPD.2.DE.R.S",
+      "RMTR.2.DE.R.S",
       "WICK.2.DE.T.S",
       "WICK.2.DE.R.S"
     ],
@@ -289,37 +258,47 @@
     "critical_early_days": 92,
     "assigned_rides": [
       "BTGA",
-      "CRSE",
+      "GALA",
+      "GOJT",
+      "HVHO",
       "NEME",
-      "RMTR",
-      "SKYR"
+      "OCTO"
     ],
     "type_a_rides": [
-      "NEME",
-      "SKYR"
+      "GALA",
+      "NEME"
     ],
     "type_b_rides": [
       "BTGA",
-      "CRSE",
-      "RMTR"
+      "GOJT",
+      "OCTO"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "HVHO"
+    ],
     "qualifications": [
       "BTGA.2.DE.S",
-      "CRSE.3.WE.C.S",
-      "CRSE.4.ME.S",
-      "NEME.4.ME.R.S",
+      "GALA.2.DE.R.S",
+      "GALA.3.WE.GALP.S",
+      "GALA.4.ME.R.S",
+      "GALA.3.DE.T.S",
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
       "NEME.4.ME.T.S",
       "NEME.2.DE.R.S",
-      "RMTR.2.DE.R.S",
-      "SKYR.4.ME.R.S"
+      "NEME.4.ME.R.S",
+      "OCTO.3.WE.R.S",
+      "OCTO.2.DE.R.S"
     ],
     "daily_qualifications": [
       "BTGA.2.DE.S",
+      "GALA.2.DE.R.S",
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
       "NEME.2.DE.R.S",
-      "RMTR.2.DE.R.S"
+      "OCTO.2.DE.R.S"
     ],
-    "coverage_score": 8
+    "coverage_score": 12
   },
   "ASHARP": {
     "name": "Aaron Sharp",
@@ -328,45 +307,53 @@
     "early_ratio": 0.5111111111111111,
     "critical_early_days": 92,
     "assigned_rides": [
-      "GALA",
-      "GOJT",
-      "HVHO",
+      "BTGA",
       "MONO",
-      "OCTO"
+      "NEME",
+      "OCTO",
+      "RAPD",
+      "WICK"
     ],
     "type_a_rides": [
-      "GALA"
+      "NEME",
+      "WICK"
     ],
     "type_b_rides": [
-      "GOJT",
+      "BTGA",
       "MONO",
       "OCTO"
     ],
     "type_c_rides": [
-      "HVHO"
+      "RAPD"
     ],
     "qualifications": [
-      "GALA.3.WE.GALP.S",
-      "GALA.4.ME.R.S",
-      "GALA.2.DE.R.S",
-      "GALA.3.DE.T.S",
-      "GOJT.2.DE.S",
-      "HVHO.2.DE.S",
-      "MONO.2.DE.T.S",
-      "MONO.4.ME.T.S",
+      "BTGA.2.DE.S",
       "MONO.4.ME.D.S",
+      "MONO.4.ME.T.S",
       "MONO.4.ME.R.S",
+      "MONO.2.DE.T.S",
+      "NEME.4.ME.T.S",
+      "NEME.2.DE.R.S",
+      "NEME.4.ME.R.S",
       "OCTO.3.WE.R.S",
-      "OCTO.2.DE.R.S"
+      "OCTO.2.DE.R.S",
+      "RAPD.3.WE.R.S",
+      "RAPD.2.DE.R.S",
+      "WICK.2.DE.T.S",
+      "WICK.2.DE.R.S",
+      "WICK.3.WE.R.S",
+      "WICK.4.ME.R.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DE.R.S",
-      "GOJT.2.DE.S",
-      "HVHO.2.DE.S",
+      "BTGA.2.DE.S",
       "MONO.2.DE.T.S",
-      "OCTO.2.DE.R.S"
+      "NEME.2.DE.R.S",
+      "OCTO.2.DE.R.S",
+      "RAPD.2.DE.R.S",
+      "WICK.2.DE.T.S",
+      "WICK.2.DE.R.S"
     ],
-    "coverage_score": 12
+    "coverage_score": 16
   },
   "TSANSOM": {
     "name": "Terry Sansom",
@@ -377,44 +364,45 @@
     "assigned_rides": [
       "BTGA",
       "GALA",
+      "GOJT",
+      "HVHO",
       "NEME",
-      "RMTR",
-      "WICK"
+      "RMTR"
     ],
     "type_a_rides": [
       "GALA",
-      "NEME",
-      "WICK"
+      "NEME"
     ],
     "type_b_rides": [
       "BTGA",
+      "GOJT",
       "RMTR"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "HVHO"
+    ],
     "qualifications": [
       "BTGA.2.DE.S",
+      "GALA.2.DE.R.S",
       "GALA.3.WE.GALP.S",
       "GALA.4.ME.R.S",
-      "GALA.2.DE.R.S",
       "GALA.3.DE.T.S",
-      "NEME.4.ME.R.S",
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
       "NEME.4.ME.T.S",
       "NEME.2.DE.R.S",
-      "RMTR.2.DE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.3.WE.R.S",
-      "WICK.2.DE.R.S",
-      "WICK.4.ME.R.S"
+      "NEME.4.ME.R.S",
+      "RMTR.2.DE.R.S"
     ],
     "daily_qualifications": [
       "BTGA.2.DE.S",
       "GALA.2.DE.R.S",
+      "GOJT.2.DE.S",
+      "HVHO.2.DE.S",
       "NEME.2.DE.R.S",
-      "RMTR.2.DE.R.S",
-      "WICK.2.DE.T.S",
-      "WICK.2.DE.R.S"
+      "RMTR.2.DE.R.S"
     ],
-    "coverage_score": 13
+    "coverage_score": 11
   },
   "ABAGNALL": {
     "name": "Aaron Bagnall",
@@ -424,9 +412,10 @@
     "critical_early_days": 112,
     "assigned_rides": [
       "CRSE",
-      "GOJT",
+      "MMAY",
       "MONO",
       "NEME",
+      "OCTO",
       "WICK"
     ],
     "type_a_rides": [
@@ -435,46 +424,54 @@
     ],
     "type_b_rides": [
       "CRSE",
-      "GOJT",
-      "MONO"
+      "MONO",
+      "OCTO"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "MMAY"
+    ],
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
-      "GOJT.4.MM.S",
+      "MMAY.2.DM.S",
+      "MMAY.3.WM.S",
+      "MMAY.4.MM.S",
       "MONO.2.DM.R.S",
       "MONO.4.MM.R.S",
       "MONO.3.WM.R.S",
       "MONO.2.DM.T.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
       "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
       "NEME.4.3MM.SPRG.S",
       "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "OCTO.4.MM.R.S",
+      "OCTO.3.WM.T.S",
+      "OCTO.3.WM.R.S",
+      "OCTO.2.DM.R.S",
+      "OCTO.4.MM.T.S",
       "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
       "WICK.2.DM.R.S",
       "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
-      "GOJT.2.DM.S",
+      "MMAY.2.DM.S",
       "MONO.2.DM.R.S",
       "MONO.2.DM.T.S",
       "NEME.2.DM.R.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "OCTO.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 24
+    "coverage_score": 29
   },
   "AHARVEY": {
     "name": "Andrew Harvey",
@@ -485,55 +482,63 @@
     "assigned_rides": [
       "GOJT",
       "MMAY",
-      "RAPD",
+      "MONO",
+      "SKYR",
       "TOXC",
       "WICK"
     ],
     "type_a_rides": [
+      "SKYR",
       "WICK"
     ],
     "type_b_rides": [
       "GOJT",
+      "MONO",
       "TOXC"
     ],
     "type_c_rides": [
-      "MMAY",
-      "RAPD"
+      "MMAY"
     ],
     "qualifications": [
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
       "GOJT.4.MM.S",
-      "MMAY.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
       "MMAY.2.DM.S",
       "MMAY.3.WM.S",
-      "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
-      "RAPD.4.MM.R.S",
-      "RAPD.2.DM.B.S",
-      "TOXC.2.DM.R.S",
+      "MMAY.4.MM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
       "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
+      "TOXC.2.DM.R.S",
       "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
       "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
       "WICK.2.DM.R.S",
       "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
       "GOJT.2.DM.S",
       "MMAY.2.DM.S",
-      "RAPD.2.DM.B.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
+      "SKYR.2.DM.S",
       "TOXC.2.DM.R.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 23
+    "coverage_score": 27
   },
   "JSUMMERS": {
     "name": "Jake Summers",
@@ -542,56 +547,63 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GALA",
-      "HVHO",
+      "BTGA",
+      "CRSE",
+      "NEME",
       "RAPD",
       "RMTR",
       "SKYR"
     ],
     "type_a_rides": [
-      "GALA",
+      "NEME",
       "SKYR"
     ],
     "type_b_rides": [
+      "BTGA",
+      "CRSE",
       "RMTR"
     ],
     "type_c_rides": [
-      "HVHO",
       "RAPD"
     ],
     "qualifications": [
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "HVHO.3.WM.S",
-      "HVHO.2.DM.S",
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
+      "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
+      "NEME.4.3MM.SPRG.S",
+      "NEME.4.MM.TZ.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
       "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
       "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
       "RAPD.2.DM.B.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
+      "RAPD.3.WM.B.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
       "RMTR.3.WM.T.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
-      "SKYR.4.MM.S"
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DM.R.S",
-      "HVHO.2.DM.S",
+      "BTGA.2.DM.S",
+      "CRSE.2.DM.S",
+      "NEME.2.DM.R.S",
       "RAPD.2.DM.B.S",
       "RMTR.2.DM.R.S",
       "SKYR.2.DM.S"
     ],
-    "coverage_score": 23
+    "coverage_score": 27
   },
   "MPICKFORD": {
     "name": "Mark Pickford",
@@ -600,54 +612,65 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "BTGA",
+      "GOJT",
       "MMAY",
-      "MONO",
       "RMTR",
-      "SKYR"
+      "SKYR",
+      "TOXC",
+      "WICK"
     ],
     "type_a_rides": [
-      "SKYR"
+      "SKYR",
+      "WICK"
     ],
     "type_b_rides": [
-      "BTGA",
-      "MONO",
-      "RMTR"
+      "GOJT",
+      "RMTR",
+      "TOXC"
     ],
     "type_c_rides": [
       "MMAY"
     ],
     "qualifications": [
-      "BTGA.4.MM.S",
-      "BTGA.2.DM.S",
-      "BTGA.3.WM.S",
-      "MMAY.4.MM.S",
+      "GOJT.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
       "MMAY.2.DM.S",
       "MMAY.3.WM.S",
-      "MONO.2.DM.R.S",
-      "MONO.4.MM.R.S",
-      "MONO.3.WM.R.S",
-      "MONO.2.DM.T.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
+      "MMAY.4.MM.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
       "RMTR.3.WM.T.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
-      "SKYR.4.MM.S"
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
-      "BTGA.2.DM.S",
+      "GOJT.2.DM.S",
       "MMAY.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.2.DM.T.S",
       "RMTR.2.DM.R.S",
-      "SKYR.2.DM.S"
+      "SKYR.2.DM.S",
+      "TOXC.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 20
+    "coverage_score": 28
   },
   "CBANKS": {
     "name": "Chris Banks",
@@ -656,10 +679,11 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
+      "BTGA",
       "CRSE",
-      "MONO",
       "RAPD",
       "SKYR",
+      "TOXC",
       "WICK"
     ],
     "type_a_rides": [
@@ -667,48 +691,52 @@
       "WICK"
     ],
     "type_b_rides": [
+      "BTGA",
       "CRSE",
-      "MONO"
+      "TOXC"
     ],
     "type_c_rides": [
       "RAPD"
     ],
     "qualifications": [
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.4.MM.R.S",
-      "MONO.3.WM.R.S",
-      "MONO.2.DM.T.S",
       "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
       "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
       "RAPD.2.DM.B.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
+      "RAPD.3.WM.B.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
       "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
       "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
       "WICK.2.DM.R.S",
       "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
+      "BTGA.2.DM.S",
       "CRSE.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.2.DM.T.S",
       "RAPD.2.DM.B.S",
       "SKYR.2.DM.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "TOXC.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 24
+    "coverage_score": 27
   },
   "CWOOD": {
     "name": "Charlie Wood",
@@ -721,10 +749,12 @@
       "GALA",
       "HVHO",
       "OCTO",
-      "RMTR"
+      "RMTR",
+      "SKYR"
     ],
     "type_a_rides": [
-      "GALA"
+      "GALA",
+      "SKYR"
     ],
     "type_b_rides": [
       "BTGA",
@@ -735,36 +765,42 @@
       "HVHO"
     ],
     "qualifications": [
-      "BTGA.4.MM.S",
       "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
       "BTGA.3.WM.S",
+      "GALA.3.WM.T.S",
       "GALA.4.MM.TZ.S",
       "GALA.3.WM.R.S",
       "GALA.2.DM.R.S",
       "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
       "GALA.4.MM.R.S",
       "HVHO.3.WM.S",
       "HVHO.2.DM.S",
-      "OCTO.4.MM.T.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
       "OCTO.2.DM.R.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
+      "OCTO.4.MM.T.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
-      "RMTR.3.WM.T.S"
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
+      "RMTR.3.WM.T.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S"
     ],
     "daily_qualifications": [
       "BTGA.2.DM.S",
       "GALA.2.DM.R.S",
       "HVHO.2.DM.S",
       "OCTO.2.DM.R.S",
-      "RMTR.2.DM.R.S"
+      "RMTR.2.DM.R.S",
+      "SKYR.2.DM.S"
     ],
-    "coverage_score": 21
+    "coverage_score": 26
   },
   "JGASKELL": {
     "name": "Joe Gaskell",
@@ -773,6 +809,7 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
+      "BTGA",
       "GALA",
       "RAPD",
       "RMTR",
@@ -784,6 +821,7 @@
       "SKYR"
     ],
     "type_b_rides": [
+      "BTGA",
       "RMTR",
       "TOXC"
     ],
@@ -791,40 +829,44 @@
       "RAPD"
     ],
     "qualifications": [
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
+      "GALA.3.WM.T.S",
       "GALA.4.MM.TZ.S",
       "GALA.3.WM.R.S",
       "GALA.2.DM.R.S",
       "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
       "GALA.4.MM.R.S",
       "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
       "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
       "RAPD.2.DM.B.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
+      "RAPD.3.WM.B.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
       "RMTR.3.WM.T.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
       "SKYR.4.MM.S",
-      "TOXC.2.DM.R.S",
+      "SKYR.4.MMS.S",
       "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S"
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
+      "BTGA.2.DM.S",
       "GALA.2.DM.R.S",
       "RAPD.2.DM.B.S",
       "RMTR.2.DM.R.S",
       "SKYR.2.DM.S",
       "TOXC.2.DM.R.S"
     ],
-    "coverage_score": 25
+    "coverage_score": 28
   },
   "LPETTITT": {
     "name": "Lee Pettitt",
@@ -834,18 +876,20 @@
     "critical_early_days": 112,
     "assigned_rides": [
       "CRSE",
-      "GALA",
       "HVHO",
-      "MONO",
-      "NEME"
+      "NEME",
+      "OCTO",
+      "SKYR",
+      "TOXC"
     ],
     "type_a_rides": [
-      "GALA",
-      "NEME"
+      "NEME",
+      "SKYR"
     ],
     "type_b_rides": [
       "CRSE",
-      "MONO"
+      "OCTO",
+      "TOXC"
     ],
     "type_c_rides": [
       "HVHO"
@@ -853,35 +897,39 @@
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
       "HVHO.3.WM.S",
       "HVHO.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.4.MM.R.S",
-      "MONO.3.WM.R.S",
-      "MONO.2.DM.T.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
       "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
       "NEME.4.3MM.SPRG.S",
       "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S"
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "OCTO.4.MM.R.S",
+      "OCTO.3.WM.T.S",
+      "OCTO.3.WM.R.S",
+      "OCTO.2.DM.R.S",
+      "OCTO.4.MM.T.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
-      "GALA.2.DM.R.S",
       "HVHO.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.2.DM.T.S",
-      "NEME.2.DM.R.S"
+      "NEME.2.DM.R.S",
+      "OCTO.2.DM.R.S",
+      "SKYR.2.DM.S",
+      "TOXC.2.DM.R.S"
     ],
-    "coverage_score": 21
+    "coverage_score": 25
   },
   "MHAMBLETON": {
     "name": "Mark Hambleton",
@@ -890,61 +938,65 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GOJT",
+      "CRSE",
+      "GALA",
       "NEME",
       "OCTO",
-      "SKYR",
-      "WICK"
+      "RAPD",
+      "TOXC"
     ],
     "type_a_rides": [
-      "NEME",
-      "SKYR",
-      "WICK"
+      "GALA",
+      "NEME"
     ],
     "type_b_rides": [
-      "GOJT",
-      "OCTO"
+      "CRSE",
+      "OCTO",
+      "TOXC"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "RAPD"
+    ],
     "qualifications": [
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
-      "GOJT.4.MM.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
+      "GALA.3.WM.T.S",
+      "GALA.4.MM.TZ.S",
+      "GALA.3.WM.R.S",
+      "GALA.2.DM.R.S",
+      "GALA.4.3MM.SPRG.S",
+      "GALA.4.MM.R.S",
       "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
       "NEME.4.3MM.SPRG.S",
       "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "OCTO.4.MM.T.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
       "OCTO.2.DM.R.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
-      "SKYR.2.DM.S",
-      "SKYR.3.WM.S",
-      "SKYR.4.MM.S",
-      "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
-      "WICK.2.DM.R.S",
-      "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "OCTO.4.MM.T.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "GOJT.2.DM.S",
+      "CRSE.2.DM.S",
+      "GALA.2.DM.R.S",
       "NEME.2.DM.R.S",
       "OCTO.2.DM.R.S",
-      "SKYR.2.DM.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "RAPD.2.DM.B.S",
+      "TOXC.2.DM.R.S"
     ],
-    "coverage_score": 28
+    "coverage_score": 29
   },
   "TBILLING": {
     "name": "Tom Billing",
@@ -956,7 +1008,8 @@
       "CRSE",
       "GALA",
       "GOJT",
-      "TOXC",
+      "MMAY",
+      "OCTO",
       "WICK"
     ],
     "type_a_rides": [
@@ -966,43 +1019,50 @@
     "type_b_rides": [
       "CRSE",
       "GOJT",
-      "TOXC"
+      "OCTO"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "MMAY"
+    ],
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
+      "GALA.3.WM.T.S",
       "GALA.4.MM.TZ.S",
       "GALA.3.WM.R.S",
       "GALA.2.DM.R.S",
       "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
       "GALA.4.MM.R.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
       "GOJT.4.MM.S",
-      "TOXC.2.DM.R.S",
-      "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
+      "MMAY.2.DM.S",
+      "MMAY.3.WM.S",
+      "MMAY.4.MM.S",
+      "OCTO.4.MM.R.S",
+      "OCTO.3.WM.T.S",
+      "OCTO.3.WM.R.S",
+      "OCTO.2.DM.R.S",
+      "OCTO.4.MM.T.S",
       "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
       "WICK.2.DM.R.S",
       "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
       "GALA.2.DM.R.S",
       "GOJT.2.DM.S",
-      "TOXC.2.DM.R.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "MMAY.2.DM.S",
+      "OCTO.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 23
+    "coverage_score": 27
   },
   "NLEESE": {
     "name": "Nicholas Leese",
@@ -1012,8 +1072,146 @@
     "critical_early_days": 112,
     "assigned_rides": [
       "CRSE",
+      "MONO",
+      "RAPD",
+      "SKYR",
+      "TOXC",
+      "WICK"
+    ],
+    "type_a_rides": [
+      "SKYR",
+      "WICK"
+    ],
+    "type_b_rides": [
+      "CRSE",
+      "MONO",
+      "TOXC"
+    ],
+    "type_c_rides": [
+      "RAPD"
+    ],
+    "qualifications": [
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "daily_qualifications": [
+      "CRSE.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
+      "RAPD.2.DM.B.S",
+      "SKYR.2.DM.S",
+      "TOXC.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "coverage_score": 28
+  },
+  "SCHATFIELD": {
+    "name": "Simon Chatfield",
+    "role": "mechanical",
+    "rota_number": 5,
+    "early_ratio": 0.6222222222222222,
+    "critical_early_days": 112,
+    "assigned_rides": [
+      "BTGA",
+      "CRSE",
+      "MONO",
       "NEME",
-      "OCTO",
+      "RAPD",
+      "WICK"
+    ],
+    "type_a_rides": [
+      "NEME",
+      "WICK"
+    ],
+    "type_b_rides": [
+      "BTGA",
+      "CRSE",
+      "MONO"
+    ],
+    "type_c_rides": [
+      "RAPD"
+    ],
+    "qualifications": [
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
+      "NEME.4.3MM.SPRG.S",
+      "NEME.4.MM.TZ.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "daily_qualifications": [
+      "BTGA.2.DM.S",
+      "CRSE.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
+      "NEME.2.DM.R.S",
+      "RAPD.2.DM.B.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "coverage_score": 29
+  },
+  "SNIXON": {
+    "name": "Stuart Nixon",
+    "role": "mechanical",
+    "rota_number": 11,
+    "early_ratio": 0.6222222222222222,
+    "critical_early_days": 112,
+    "assigned_rides": [
+      "CRSE",
+      "GOJT",
+      "HVHO",
+      "NEME",
       "SKYR",
       "TOXC"
     ],
@@ -1023,158 +1221,46 @@
     ],
     "type_b_rides": [
       "CRSE",
-      "OCTO",
+      "GOJT",
       "TOXC"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "HVHO"
+    ],
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
+      "GOJT.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
+      "HVHO.3.WM.S",
+      "HVHO.2.DM.S",
       "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
       "NEME.4.3MM.SPRG.S",
       "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "OCTO.4.MM.T.S",
-      "OCTO.3.WM.T.S",
-      "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
-      "OCTO.2.DM.R.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
       "SKYR.4.MM.S",
-      "TOXC.2.DM.R.S",
+      "SKYR.4.MMS.S",
       "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S"
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
+      "GOJT.2.DM.S",
+      "HVHO.2.DM.S",
       "NEME.2.DM.R.S",
-      "OCTO.2.DM.R.S",
       "SKYR.2.DM.S",
       "TOXC.2.DM.R.S"
     ],
     "coverage_score": 23
-  },
-  "SCHATFIELD": {
-    "name": "Simon Chatfield",
-    "role": "mechanical",
-    "rota_number": 5,
-    "early_ratio": 0.6222222222222222,
-    "critical_early_days": 112,
-    "assigned_rides": [
-      "HVHO",
-      "MMAY",
-      "MONO",
-      "RAPD",
-      "WICK"
-    ],
-    "type_a_rides": [
-      "WICK"
-    ],
-    "type_b_rides": [
-      "MONO"
-    ],
-    "type_c_rides": [
-      "HVHO",
-      "MMAY",
-      "RAPD"
-    ],
-    "qualifications": [
-      "HVHO.3.WM.S",
-      "HVHO.2.DM.S",
-      "MMAY.4.MM.S",
-      "MMAY.2.DM.S",
-      "MMAY.3.WM.S",
-      "MONO.2.DM.R.S",
-      "MONO.4.MM.R.S",
-      "MONO.3.WM.R.S",
-      "MONO.2.DM.T.S",
-      "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
-      "RAPD.4.MM.R.S",
-      "RAPD.2.DM.B.S",
-      "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
-      "WICK.2.DM.R.S",
-      "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
-    ],
-    "daily_qualifications": [
-      "HVHO.2.DM.S",
-      "MMAY.2.DM.S",
-      "MONO.2.DM.R.S",
-      "MONO.2.DM.T.S",
-      "RAPD.2.DM.B.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
-    ],
-    "coverage_score": 22
-  },
-  "SNIXON": {
-    "name": "Stuart Nixon",
-    "role": "mechanical",
-    "rota_number": 11,
-    "early_ratio": 0.6222222222222222,
-    "critical_early_days": 112,
-    "assigned_rides": [
-      "HVHO",
-      "MMAY",
-      "NEME",
-      "OCTO",
-      "TOXC"
-    ],
-    "type_a_rides": [
-      "NEME"
-    ],
-    "type_b_rides": [
-      "OCTO",
-      "TOXC"
-    ],
-    "type_c_rides": [
-      "HVHO",
-      "MMAY"
-    ],
-    "qualifications": [
-      "HVHO.3.WM.S",
-      "HVHO.2.DM.S",
-      "MMAY.4.MM.S",
-      "MMAY.2.DM.S",
-      "MMAY.3.WM.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
-      "NEME.4.MM.R.S",
-      "NEME.4.3MM.SPRG.S",
-      "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "OCTO.4.MM.T.S",
-      "OCTO.3.WM.T.S",
-      "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
-      "OCTO.2.DM.R.S",
-      "TOXC.2.DM.R.S",
-      "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S"
-    ],
-    "daily_qualifications": [
-      "HVHO.2.DM.S",
-      "MMAY.2.DM.S",
-      "NEME.2.DM.R.S",
-      "OCTO.2.DM.R.S",
-      "TOXC.2.DM.R.S"
-    ],
-    "coverage_score": 21
   },
   "ACOOKE": {
     "name": "Alistair Cooke",
@@ -1183,193 +1269,16 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GALA",
-      "GOJT",
-      "HVHO",
-      "OCTO",
-      "WICK"
-    ],
-    "type_a_rides": [
-      "GALA",
-      "WICK"
-    ],
-    "type_b_rides": [
-      "GOJT",
-      "OCTO"
-    ],
-    "type_c_rides": [
-      "HVHO"
-    ],
-    "qualifications": [
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
-      "GOJT.4.MM.S",
-      "HVHO.3.WM.S",
-      "HVHO.2.DM.S",
-      "OCTO.4.MM.T.S",
-      "OCTO.3.WM.T.S",
-      "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
-      "OCTO.2.DM.R.S",
-      "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
-      "WICK.2.DM.R.S",
-      "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
-    ],
-    "daily_qualifications": [
-      "GALA.2.DM.R.S",
-      "GOJT.2.DM.S",
-      "HVHO.2.DM.S",
-      "OCTO.2.DM.R.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
-    ],
-    "coverage_score": 24
-  },
-  "JCRABBE": {
-    "name": "Josh Crabbe",
-    "role": "mechanical",
-    "rota_number": 3,
-    "early_ratio": 0.6222222222222222,
-    "critical_early_days": 112,
-    "assigned_rides": [
       "CRSE",
       "GALA",
-      "HVHO",
-      "MMAY",
-      "WICK"
-    ],
-    "type_a_rides": [
-      "GALA",
-      "WICK"
-    ],
-    "type_b_rides": [
-      "CRSE"
-    ],
-    "type_c_rides": [
-      "HVHO",
-      "MMAY"
-    ],
-    "qualifications": [
-      "CRSE.4.MM.S",
-      "CRSE.2.DM.S",
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "HVHO.3.WM.S",
-      "HVHO.2.DM.S",
-      "MMAY.4.MM.S",
-      "MMAY.2.DM.S",
-      "MMAY.3.WM.S",
-      "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
-      "WICK.2.DM.R.S",
-      "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
-    ],
-    "daily_qualifications": [
-      "CRSE.2.DM.S",
-      "GALA.2.DM.R.S",
-      "HVHO.2.DM.S",
-      "MMAY.2.DM.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
-    ],
-    "coverage_score": 21
-  },
-  "TEDWARDS": {
-    "name": "Ted Edwards",
-    "role": "mechanical",
-    "rota_number": 4,
-    "early_ratio": 0.6222222222222222,
-    "critical_early_days": 112,
-    "assigned_rides": [
-      "BTGA",
-      "MMAY",
-      "NEME",
-      "RAPD",
-      "WICK"
-    ],
-    "type_a_rides": [
-      "NEME",
-      "WICK"
-    ],
-    "type_b_rides": [
-      "BTGA"
-    ],
-    "type_c_rides": [
-      "MMAY",
-      "RAPD"
-    ],
-    "qualifications": [
-      "BTGA.4.MM.S",
-      "BTGA.2.DM.S",
-      "BTGA.3.WM.S",
-      "MMAY.4.MM.S",
-      "MMAY.2.DM.S",
-      "MMAY.3.WM.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
-      "NEME.4.MM.R.S",
-      "NEME.4.3MM.SPRG.S",
-      "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
-      "RAPD.4.MM.R.S",
-      "RAPD.2.DM.B.S",
-      "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
-      "WICK.2.DM.R.S",
-      "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
-    ],
-    "daily_qualifications": [
-      "BTGA.2.DM.S",
-      "MMAY.2.DM.S",
-      "NEME.2.DM.R.S",
-      "RAPD.2.DM.B.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
-    ],
-    "coverage_score": 26
-  },
-  "DBLEASDALE": {
-    "name": "Daniel Bleasdale",
-    "role": "mechanical",
-    "rota_number": 2,
-    "early_ratio": 0.6222222222222222,
-    "critical_early_days": 112,
-    "assigned_rides": [
-      "CRSE",
       "GOJT",
       "HVHO",
       "RMTR",
-      "SKYR"
+      "WICK"
     ],
     "type_a_rides": [
-      "SKYR"
+      "GALA",
+      "WICK"
     ],
     "type_b_rides": [
       "CRSE",
@@ -1382,30 +1291,246 @@
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
+      "GALA.3.WM.T.S",
+      "GALA.4.MM.TZ.S",
+      "GALA.3.WM.R.S",
+      "GALA.2.DM.R.S",
+      "GALA.4.3MM.SPRG.S",
+      "GALA.4.MM.R.S",
       "GOJT.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
       "HVHO.3.WM.S",
       "HVHO.2.DM.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
       "RMTR.3.WM.T.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
-      "SKYR.2.DM.S",
-      "SKYR.3.WM.S",
-      "SKYR.4.MM.S"
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
+      "GALA.2.DM.R.S",
       "GOJT.2.DM.S",
       "HVHO.2.DM.S",
       "RMTR.2.DM.R.S",
-      "SKYR.2.DM.S"
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 17
+    "coverage_score": 26
+  },
+  "JCRABBE": {
+    "name": "Josh Crabbe",
+    "role": "mechanical",
+    "rota_number": 3,
+    "early_ratio": 0.6222222222222222,
+    "critical_early_days": 112,
+    "assigned_rides": [
+      "BTGA",
+      "CRSE",
+      "MMAY",
+      "SKYR",
+      "TOXC",
+      "WICK"
+    ],
+    "type_a_rides": [
+      "SKYR",
+      "WICK"
+    ],
+    "type_b_rides": [
+      "BTGA",
+      "CRSE",
+      "TOXC"
+    ],
+    "type_c_rides": [
+      "MMAY"
+    ],
+    "qualifications": [
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
+      "MMAY.2.DM.S",
+      "MMAY.3.WM.S",
+      "MMAY.4.MM.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "daily_qualifications": [
+      "BTGA.2.DM.S",
+      "CRSE.2.DM.S",
+      "MMAY.2.DM.S",
+      "SKYR.2.DM.S",
+      "TOXC.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "coverage_score": 25
+  },
+  "TEDWARDS": {
+    "name": "Ted Edwards",
+    "role": "mechanical",
+    "rota_number": 4,
+    "early_ratio": 0.6222222222222222,
+    "critical_early_days": 112,
+    "assigned_rides": [
+      "BTGA",
+      "MMAY",
+      "MONO",
+      "NEME",
+      "RMTR",
+      "WICK"
+    ],
+    "type_a_rides": [
+      "NEME",
+      "WICK"
+    ],
+    "type_b_rides": [
+      "BTGA",
+      "MONO",
+      "RMTR"
+    ],
+    "type_c_rides": [
+      "MMAY"
+    ],
+    "qualifications": [
+      "BTGA.2.DM.S",
+      "BTGA.4.MM.S",
+      "BTGA.3.WM.S",
+      "MMAY.2.DM.S",
+      "MMAY.3.WM.S",
+      "MMAY.4.MM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
+      "NEME.4.3MM.SPRG.S",
+      "NEME.4.MM.TZ.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "RMTR.2.DM.R.S",
+      "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
+      "RMTR.3.WM.T.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "daily_qualifications": [
+      "BTGA.2.DM.S",
+      "MMAY.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
+      "NEME.2.DM.R.S",
+      "RMTR.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "coverage_score": 30
+  },
+  "DBLEASDALE": {
+    "name": "Daniel Bleasdale",
+    "role": "mechanical",
+    "rota_number": 2,
+    "early_ratio": 0.6222222222222222,
+    "critical_early_days": 112,
+    "assigned_rides": [
+      "GALA",
+      "GOJT",
+      "MONO",
+      "RAPD",
+      "RMTR",
+      "WICK"
+    ],
+    "type_a_rides": [
+      "GALA",
+      "WICK"
+    ],
+    "type_b_rides": [
+      "GOJT",
+      "MONO",
+      "RMTR"
+    ],
+    "type_c_rides": [
+      "RAPD"
+    ],
+    "qualifications": [
+      "GALA.3.WM.T.S",
+      "GALA.4.MM.TZ.S",
+      "GALA.3.WM.R.S",
+      "GALA.2.DM.R.S",
+      "GALA.4.3MM.SPRG.S",
+      "GALA.4.MM.R.S",
+      "GOJT.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
+      "RMTR.2.DM.R.S",
+      "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
+      "RMTR.3.WM.T.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "daily_qualifications": [
+      "GALA.2.DM.R.S",
+      "GOJT.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
+      "RAPD.2.DM.B.S",
+      "RMTR.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
+    ],
+    "coverage_score": 31
   },
   "RNEGUS": {
     "name": "Robert Negus",
@@ -1414,58 +1539,66 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "MONO",
-      "NEME",
+      "GALA",
+      "OCTO",
+      "RAPD",
       "RMTR",
       "SKYR",
       "TOXC"
     ],
     "type_a_rides": [
-      "NEME",
+      "GALA",
       "SKYR"
     ],
     "type_b_rides": [
-      "MONO",
+      "OCTO",
       "RMTR",
       "TOXC"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "RAPD"
+    ],
     "qualifications": [
-      "MONO.2.DM.R.S",
-      "MONO.4.MM.R.S",
-      "MONO.3.WM.R.S",
-      "MONO.2.DM.T.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
-      "NEME.4.MM.R.S",
-      "NEME.4.3MM.SPRG.S",
-      "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "RMTR.4.MM.R.S",
-      "RMTR.4.MM.T.S",
+      "GALA.3.WM.T.S",
+      "GALA.4.MM.TZ.S",
+      "GALA.3.WM.R.S",
+      "GALA.2.DM.R.S",
+      "GALA.4.3MM.SPRG.S",
+      "GALA.4.MM.R.S",
+      "OCTO.4.MM.R.S",
+      "OCTO.3.WM.T.S",
+      "OCTO.3.WM.R.S",
+      "OCTO.2.DM.R.S",
+      "OCTO.4.MM.T.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
       "RMTR.2.DM.R.S",
       "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
       "RMTR.3.WM.T.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
       "SKYR.4.MM.S",
-      "TOXC.2.DM.R.S",
+      "SKYR.4.MMS.S",
       "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S"
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
-      "MONO.2.DM.R.S",
-      "MONO.2.DM.T.S",
-      "NEME.2.DM.R.S",
+      "GALA.2.DM.R.S",
+      "OCTO.2.DM.R.S",
+      "RAPD.2.DM.B.S",
       "RMTR.2.DM.R.S",
       "SKYR.2.DM.S",
       "TOXC.2.DM.R.S"
     ],
-    "coverage_score": 25
+    "coverage_score": 30
   },
   "SSTOREY": {
     "name": "Sam Storey",
@@ -1474,54 +1607,65 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "BTGA",
-      "GALA",
+      "CRSE",
       "GOJT",
       "OCTO",
-      "SKYR"
+      "RAPD",
+      "SKYR",
+      "WICK"
     ],
     "type_a_rides": [
-      "GALA",
-      "SKYR"
+      "SKYR",
+      "WICK"
     ],
     "type_b_rides": [
-      "BTGA",
+      "CRSE",
       "GOJT",
       "OCTO"
     ],
-    "type_c_rides": [],
+    "type_c_rides": [
+      "RAPD"
+    ],
     "qualifications": [
-      "BTGA.4.MM.S",
-      "BTGA.2.DM.S",
-      "BTGA.3.WM.S",
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
       "GOJT.4.MM.S",
-      "OCTO.4.MM.T.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
       "OCTO.2.DM.R.S",
-      "SKYR.4.MMS.S",
-      "SKYR.4.MM.G.S",
+      "OCTO.4.MM.T.S",
+      "RAPD.3.WM.R.S",
+      "RAPD.4.MM.R.S",
+      "RAPD.4.MM.B.S",
+      "RAPD.2.DM.B.S",
+      "RAPD.3.WM.B.S",
       "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
       "SKYR.3.WM.S",
-      "SKYR.4.MM.S"
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
-      "BTGA.2.DM.S",
-      "GALA.2.DM.R.S",
+      "CRSE.2.DM.S",
       "GOJT.2.DM.S",
       "OCTO.2.DM.R.S",
-      "SKYR.2.DM.S"
+      "RAPD.2.DM.B.S",
+      "SKYR.2.DM.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 22
+    "coverage_score": 28
   },
   "FROBERTS": {
     "name": "Frazer Roberts",
@@ -1530,59 +1674,63 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GALA",
+      "CRSE",
       "MMAY",
+      "MONO",
       "OCTO",
-      "RAPD",
+      "SKYR",
       "WICK"
     ],
     "type_a_rides": [
-      "GALA",
+      "SKYR",
       "WICK"
     ],
     "type_b_rides": [
+      "CRSE",
+      "MONO",
       "OCTO"
     ],
     "type_c_rides": [
-      "MMAY",
-      "RAPD"
+      "MMAY"
     ],
     "qualifications": [
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "MMAY.4.MM.S",
+      "CRSE.4.MM.S",
+      "CRSE.2.DM.S",
       "MMAY.2.DM.S",
       "MMAY.3.WM.S",
-      "OCTO.4.MM.T.S",
+      "MMAY.4.MM.S",
+      "MONO.2.DM.R.S",
+      "MONO.4.MM.R.S",
+      "MONO.3.WM.R.S",
+      "MONO.2.DM.T.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
       "OCTO.2.DM.R.S",
-      "RAPD.3.WM.R.S",
-      "RAPD.4.MM.B.S",
-      "RAPD.3.WM.B.S",
-      "RAPD.4.MM.R.S",
-      "RAPD.2.DM.B.S",
+      "OCTO.4.MM.T.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
       "WICK.4.MM.TMBR.S",
-      "WICK.3.WM.T.S",
-      "WICK.2.DM.T.S",
-      "WICK.4.MM.R.S",
-      "WICK.4.MM.STRC.S",
       "WICK.2.DM.R.S",
       "WICK.3.WM.R.S",
-      "WICK.3.WM.STRC.S"
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DM.R.S",
+      "CRSE.2.DM.S",
       "MMAY.2.DM.S",
+      "MONO.2.DM.R.S",
+      "MONO.2.DM.T.S",
       "OCTO.2.DM.R.S",
-      "RAPD.2.DM.B.S",
-      "WICK.2.DM.T.S",
-      "WICK.2.DM.R.S"
+      "SKYR.2.DM.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "coverage_score": 27
   },
@@ -1597,10 +1745,12 @@
       "MMAY",
       "NEME",
       "OCTO",
+      "SKYR",
       "TOXC"
     ],
     "type_a_rides": [
-      "NEME"
+      "NEME",
+      "SKYR"
     ],
     "type_b_rides": [
       "CRSE",
@@ -1613,34 +1763,40 @@
     "qualifications": [
       "CRSE.4.MM.S",
       "CRSE.2.DM.S",
-      "MMAY.4.MM.S",
       "MMAY.2.DM.S",
       "MMAY.3.WM.S",
-      "NEME.3.WM.T.S",
-      "NEME.3.WM.R.S",
+      "MMAY.4.MM.S",
       "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
       "NEME.4.3MM.SPRG.S",
       "NEME.4.MM.TZ.S",
-      "NEME.4.MM.T.S",
-      "NEME.2.DM.R.S",
-      "OCTO.4.MM.T.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
       "OCTO.2.DM.R.S",
-      "TOXC.2.DM.R.S",
+      "OCTO.4.MM.T.S",
+      "SKYR.2.DM.S",
+      "SKYR.4.MM.G.S",
+      "SKYR.3.WM.S",
+      "SKYR.4.MM.S",
+      "SKYR.4.MMS.S",
       "TOXC.4.3MM.R.S",
-      "TOXC.3.WM.R.S",
-      "TOXC.4.MM.R.S"
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S"
     ],
     "daily_qualifications": [
       "CRSE.2.DM.S",
       "MMAY.2.DM.S",
       "NEME.2.DM.R.S",
       "OCTO.2.DM.R.S",
+      "SKYR.2.DM.S",
       "TOXC.2.DM.R.S"
     ],
-    "coverage_score": 21
+    "coverage_score": 26
   },
   "JBILL": {
     "name": "Jack Bill",
@@ -1649,53 +1805,66 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "BTGA",
       "GALA",
       "GOJT",
       "MMAY",
-      "OCTO"
+      "OCTO",
+      "TOXC",
+      "WICK"
     ],
     "type_a_rides": [
-      "GALA"
+      "GALA",
+      "WICK"
     ],
     "type_b_rides": [
-      "BTGA",
       "GOJT",
-      "OCTO"
+      "OCTO",
+      "TOXC"
     ],
     "type_c_rides": [
       "MMAY"
     ],
     "qualifications": [
-      "BTGA.4.MM.S",
-      "BTGA.2.DM.S",
-      "BTGA.3.WM.S",
+      "GALA.3.WM.T.S",
       "GALA.4.MM.TZ.S",
       "GALA.3.WM.R.S",
       "GALA.2.DM.R.S",
       "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
       "GALA.4.MM.R.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
       "GOJT.4.MM.S",
-      "MMAY.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
       "MMAY.2.DM.S",
       "MMAY.3.WM.S",
-      "OCTO.4.MM.T.S",
+      "MMAY.4.MM.S",
+      "OCTO.4.MM.R.S",
       "OCTO.3.WM.T.S",
       "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
-      "OCTO.2.DM.R.S"
+      "OCTO.2.DM.R.S",
+      "OCTO.4.MM.T.S",
+      "TOXC.4.3MM.R.S",
+      "TOXC.2.DM.R.S",
+      "TOXC.4.MM.R.S",
+      "TOXC.3.WM.R.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
-      "BTGA.2.DM.S",
       "GALA.2.DM.R.S",
       "GOJT.2.DM.S",
       "MMAY.2.DM.S",
-      "OCTO.2.DM.R.S"
+      "OCTO.2.DM.R.S",
+      "TOXC.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 20
+    "coverage_score": 29
   },
   "JPOWELL": {
     "name": "Joshua Powell",
@@ -1704,53 +1873,66 @@
     "early_ratio": 0.6222222222222222,
     "critical_early_days": 112,
     "assigned_rides": [
-      "GALA",
       "GOJT",
       "HVHO",
       "MONO",
-      "OCTO"
+      "NEME",
+      "RMTR",
+      "WICK"
     ],
     "type_a_rides": [
-      "GALA"
+      "NEME",
+      "WICK"
     ],
     "type_b_rides": [
       "GOJT",
       "MONO",
-      "OCTO"
+      "RMTR"
     ],
     "type_c_rides": [
       "HVHO"
     ],
     "qualifications": [
-      "GALA.4.MM.TZ.S",
-      "GALA.3.WM.R.S",
-      "GALA.2.DM.R.S",
-      "GALA.4.3MM.SPRG.S",
-      "GALA.3.WM.T.S",
-      "GALA.4.MM.R.S",
-      "GOJT.3.WM.S",
-      "GOJT.2.DM.S",
       "GOJT.4.MM.S",
+      "GOJT.2.DM.S",
+      "GOJT.3.WM.S",
       "HVHO.3.WM.S",
       "HVHO.2.DM.S",
       "MONO.2.DM.R.S",
       "MONO.4.MM.R.S",
       "MONO.3.WM.R.S",
       "MONO.2.DM.T.S",
-      "OCTO.4.MM.T.S",
-      "OCTO.3.WM.T.S",
-      "OCTO.3.WM.R.S",
-      "OCTO.4.MM.R.S",
-      "OCTO.2.DM.R.S"
+      "NEME.4.MM.R.S",
+      "NEME.2.DM.R.S",
+      "NEME.4.MM.T.S",
+      "NEME.4.3MM.SPRG.S",
+      "NEME.4.MM.TZ.S",
+      "NEME.3.WM.T.S",
+      "NEME.3.WM.R.S",
+      "RMTR.2.DM.R.S",
+      "RMTR.3.WM.R.S",
+      "RMTR.4.MM.T.S",
+      "RMTR.4.MM.R.S",
+      "RMTR.3.WM.T.S",
+      "WICK.4.MM.TMBR.S",
+      "WICK.2.DM.R.S",
+      "WICK.3.WM.R.S",
+      "WICK.4.MM.STRC.S",
+      "WICK.3.WM.T.S",
+      "WICK.3.WM.STRC.S",
+      "WICK.4.MM.R.S",
+      "WICK.2.DM.T.S"
     ],
     "daily_qualifications": [
-      "GALA.2.DM.R.S",
       "GOJT.2.DM.S",
       "HVHO.2.DM.S",
       "MONO.2.DM.R.S",
       "MONO.2.DM.T.S",
-      "OCTO.2.DM.R.S"
+      "NEME.2.DM.R.S",
+      "RMTR.2.DM.R.S",
+      "WICK.2.DM.R.S",
+      "WICK.2.DM.T.S"
     ],
-    "coverage_score": 20
+    "coverage_score": 29
   }
 }

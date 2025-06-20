@@ -1,0 +1,679 @@
+{
+  "team_1": {
+    "DSCH": {
+      "ride_name": "Driving School",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Haydan Buckley",
+        "James Benbow",
+        "Richard Vaughan"
+      ],
+      "mechanical_engineers": [
+        "Cameron Lee",
+        "John Kirk",
+        "Robert Parker"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 3,
+      "total_count": 6
+    },
+    "FHOP": {
+      "ride_name": "Frog Hoppers",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "Alex Perry-French",
+        "David Finney",
+        "John Booth"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 3,
+      "total_count": 3
+    },
+    "GANG": {
+      "ride_name": "Gangsta Granny",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Adrian Williams",
+        "Charmaine Forrester",
+        "Haydan Buckley",
+        "James Benbow",
+        "Neil Pallett",
+        "Stephen Smith"
+      ],
+      "mechanical_engineers": [
+        "Ian Percy",
+        "John Kirk",
+        "Joshua Brenton"
+      ],
+      "electrical_count": 6,
+      "mechanical_count": 3,
+      "total_count": 9
+    },
+    "GLPR": {
+      "ride_name": "Gallopers",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Charmaine Forrester",
+        "David Harrison",
+        "Stephen Smith"
+      ],
+      "mechanical_engineers": [
+        "Derek Heath",
+        "John Booth",
+        "Thomas Thornton"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 3,
+      "total_count": 6
+    },
+    "GSGO": {
+      "ride_name": "Get Set Go",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Jordan Needham",
+        "Neil Pallett",
+        "Richard Vaughan",
+        "Steve Sargeant"
+      ],
+      "mechanical_engineers": [
+        "Jack Hamer",
+        "Kevin Harnett",
+        "Max Jelfs"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 3,
+      "total_count": 7
+    },
+    "HEXL": {
+      "ride_name": "Hex",
+      "ride_type": "B",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "David Finney",
+        "Ian Percy",
+        "John Kirk",
+        "Max Jelfs",
+        "Sam Holden",
+        "Shaun Cohen"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 6,
+      "total_count": 6
+    },
+    "ITNG": {
+      "ride_name": "In The Night Garden",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "Kevin Harnett",
+        "Leon Bedford",
+        "Sam Holden",
+        "Thomas Thornton"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 4,
+      "total_count": 4
+    },
+    "JHOU": {
+      "ride_name": "Justice House",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "Max Jelfs",
+        "Robert Parker",
+        "Sam Holden"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 3,
+      "total_count": 3
+    },
+    "NUMT": {
+      "ride_name": "Num Tums",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "David Finney",
+        "Derek Heath",
+        "Joshua Brenton",
+        "Leo Smith"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 4,
+      "total_count": 4
+    },
+    "OBLV": {
+      "ride_name": "Oblivion",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "David Harrison",
+        "Jordan Needham",
+        "Richard Vaughan"
+      ],
+      "mechanical_engineers": [
+        "Alex Perry-French",
+        "Cameron Lee",
+        "Ian Percy",
+        "John Booth",
+        "John Kirk",
+        "Leo Smith",
+        "Leon Bedford"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 7,
+      "total_count": 10
+    },
+    "PPAT": {
+      "ride_name": "Postman Pat",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Adrian Williams",
+        "David Harrison",
+        "Jordan Needham",
+        "Steve Sargeant"
+      ],
+      "mechanical_engineers": [
+        "Ian Percy",
+        "Leo Smith",
+        "Leon Bedford",
+        "Shaun Cohen"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 4,
+      "total_count": 8
+    },
+    "PRHH": {
+      "ride_name": "Hippity Hop",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "Alex Perry-French",
+        "Cameron Lee",
+        "Jack Hamer",
+        "Shaun Cohen"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 4,
+      "total_count": 4
+    },
+    "RITA": {
+      "ride_name": "Rita - Queen of Speed",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Charmaine Forrester",
+        "David Harrison",
+        "Haydan Buckley",
+        "James Benbow"
+      ],
+      "mechanical_engineers": [
+        "Cameron Lee",
+        "Joshua Brenton",
+        "Kevin Harnett",
+        "Shaun Cohen"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 4,
+      "total_count": 8
+    },
+    "SMLR": {
+      "ride_name": "The Smiler",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Adrian Williams",
+        "Jordan Needham",
+        "Neil Pallett",
+        "Steve Sargeant"
+      ],
+      "mechanical_engineers": [
+        "Alex Perry-French",
+        "David Finney",
+        "Derek Heath",
+        "Jack Hamer",
+        "Kevin Harnett",
+        "Max Jelfs",
+        "Sam Holden",
+        "Thomas Thornton"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 8,
+      "total_count": 12
+    },
+    "SPBL": {
+      "ride_name": "Spinball Whizzer",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Haydan Buckley",
+        "Neil Pallett",
+        "Richard Vaughan",
+        "Stephen Smith",
+        "Steve Sargeant"
+      ],
+      "mechanical_engineers": [
+        "David Finney",
+        "Ian Percy",
+        "Jack Hamer",
+        "John Booth",
+        "John Kirk",
+        "Joshua Brenton",
+        "Leo Smith",
+        "Robert Parker"
+      ],
+      "electrical_count": 5,
+      "mechanical_count": 8,
+      "total_count": 13
+    },
+    "SUBT": {
+      "ride_name": "Sub-Terra",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Adrian Williams",
+        "Charmaine Forrester",
+        "David Harrison",
+        "Haydan Buckley",
+        "James Benbow",
+        "Jordan Needham",
+        "Neil Pallett",
+        "Richard Vaughan",
+        "Stephen Smith",
+        "Steve Sargeant"
+      ],
+      "mechanical_engineers": [
+        "Alex Perry-French",
+        "Cameron Lee",
+        "Derek Heath",
+        "Jack Hamer",
+        "John Booth",
+        "Joshua Brenton",
+        "Kevin Harnett",
+        "Leo Smith",
+        "Leon Bedford",
+        "Robert Parker",
+        "Thomas Thornton"
+      ],
+      "electrical_count": 10,
+      "mechanical_count": 11,
+      "total_count": 21
+    },
+    "THRT": {
+      "ride_name": "Thirteen",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Adrian Williams",
+        "Charmaine Forrester",
+        "James Benbow",
+        "Stephen Smith"
+      ],
+      "mechanical_engineers": [
+        "Derek Heath",
+        "Leon Bedford",
+        "Max Jelfs",
+        "Robert Parker",
+        "Sam Holden",
+        "Shaun Cohen",
+        "Thomas Thornton"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 7,
+      "total_count": 11
+    }
+  },
+  "team_2": {
+    "BTGA": {
+      "ride_name": "Battle Galleons",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Adam Yeomans",
+        "Alex Davies",
+        "Jordan Johnson",
+        "Kevin Lowe",
+        "Mark Lovatt",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Charlie Wood",
+        "Chris Banks",
+        "Jake Summers",
+        "Joe Gaskell",
+        "Josh Crabbe",
+        "Simon Chatfield",
+        "Ted Edwards"
+      ],
+      "electrical_count": 7,
+      "mechanical_count": 7,
+      "total_count": 14
+    },
+    "CRSE": {
+      "ride_name": "Curse",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Adam Yeomans",
+        "Alex Davies"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Alistair Cooke",
+        "Chris Banks",
+        "Frazer Roberts",
+        "Jake Summers",
+        "Josh Crabbe",
+        "Lee Pettitt",
+        "Mark Hambleton",
+        "Nicholas Leese",
+        "Paul Ratcliff",
+        "Sam Storey",
+        "Simon Chatfield",
+        "Stuart Nixon",
+        "Tom Billing"
+      ],
+      "electrical_count": 2,
+      "mechanical_count": 14,
+      "total_count": 16
+    },
+    "DUEL": {
+      "ride_name": "Duel",
+      "ride_type": "C",
+      "electrical_engineers": [],
+      "mechanical_engineers": [],
+      "electrical_count": 0,
+      "mechanical_count": 0,
+      "total_count": 0
+    },
+    "GALA": {
+      "ride_name": "Galactica",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Jordan Johnson",
+        "Mark Lovatt",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Alistair Cooke",
+        "Charlie Wood",
+        "Daniel Bleasdale",
+        "Jack Bill",
+        "Joe Gaskell",
+        "Mark Hambleton",
+        "Robert Negus",
+        "Tom Billing"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 8,
+      "total_count": 11
+    },
+    "GOJT": {
+      "ride_name": "Go Jetters",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Jordan Johnson",
+        "Mark Lovatt",
+        "Michael Doyle",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Alistair Cooke",
+        "Andrew Harvey",
+        "Daniel Bleasdale",
+        "Jack Bill",
+        "Joshua Powell",
+        "Mark Pickford",
+        "Sam Storey",
+        "Stuart Nixon",
+        "Tom Billing"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 9,
+      "total_count": 13
+    },
+    "HVHO": {
+      "ride_name": "Heave Ho",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Jordan Johnson",
+        "Mark Lovatt",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Alistair Cooke",
+        "Charlie Wood",
+        "Joshua Powell",
+        "Lee Pettitt",
+        "Stuart Nixon"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 5,
+      "total_count": 8
+    },
+    "MMAY": {
+      "ride_name": "Marauders Mayhem",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Alex Davies"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Andrew Harvey",
+        "Frazer Roberts",
+        "Jack Bill",
+        "Josh Crabbe",
+        "Mark Pickford",
+        "Paul Ratcliff",
+        "Ted Edwards",
+        "Tom Billing"
+      ],
+      "electrical_count": 1,
+      "mechanical_count": 9,
+      "total_count": 10
+    },
+    "MONO": {
+      "ride_name": "Monorail",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Kevin Lowe",
+        "Michael Doyle"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Andrew Harvey",
+        "Daniel Bleasdale",
+        "Frazer Roberts",
+        "Joshua Powell",
+        "Nicholas Leese",
+        "Simon Chatfield",
+        "Ted Edwards"
+      ],
+      "electrical_count": 3,
+      "mechanical_count": 8,
+      "total_count": 11
+    },
+    "NEME": {
+      "ride_name": "Nemesis",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Adam Yeomans",
+        "Alex Davies",
+        "Jordan Johnson",
+        "Kevin Lowe",
+        "Mark Lovatt",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Jake Summers",
+        "Joshua Powell",
+        "Lee Pettitt",
+        "Mark Hambleton",
+        "Paul Ratcliff",
+        "Simon Chatfield",
+        "Stuart Nixon",
+        "Ted Edwards"
+      ],
+      "electrical_count": 7,
+      "mechanical_count": 9,
+      "total_count": 16
+    },
+    "OCTO": {
+      "ride_name": "Octonauts",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Jordan Johnson",
+        "Kevin Lowe",
+        "Michael Doyle"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Charlie Wood",
+        "Frazer Roberts",
+        "Jack Bill",
+        "Lee Pettitt",
+        "Mark Hambleton",
+        "Paul Ratcliff",
+        "Robert Negus",
+        "Sam Storey",
+        "Tom Billing"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 10,
+      "total_count": 14
+    },
+    "RAPD": {
+      "ride_name": "Rapids",
+      "ride_type": "C",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Adam Yeomans",
+        "Kevin Lowe",
+        "Michael Doyle"
+      ],
+      "mechanical_engineers": [
+        "Chris Banks",
+        "Daniel Bleasdale",
+        "Jake Summers",
+        "Joe Gaskell",
+        "Mark Hambleton",
+        "Nicholas Leese",
+        "Robert Negus",
+        "Sam Storey",
+        "Simon Chatfield"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 9,
+      "total_count": 13
+    },
+    "RMTR": {
+      "ride_name": "Runaway Mine Train",
+      "ride_type": "B",
+      "electrical_engineers": [
+        "Adam Yeomans",
+        "Alex Davies",
+        "Mark Lovatt",
+        "Terry Sansom"
+      ],
+      "mechanical_engineers": [
+        "Alistair Cooke",
+        "Charlie Wood",
+        "Daniel Bleasdale",
+        "Jake Summers",
+        "Joe Gaskell",
+        "Joshua Powell",
+        "Mark Pickford",
+        "Robert Negus",
+        "Ted Edwards"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 9,
+      "total_count": 13
+    },
+    "SKYR": {
+      "ride_name": "Skyride",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Kevin Lowe",
+        "Michael Doyle"
+      ],
+      "mechanical_engineers": [
+        "Andrew Harvey",
+        "Charlie Wood",
+        "Chris Banks",
+        "Frazer Roberts",
+        "Jake Summers",
+        "Joe Gaskell",
+        "Josh Crabbe",
+        "Lee Pettitt",
+        "Mark Pickford",
+        "Nicholas Leese",
+        "Paul Ratcliff",
+        "Robert Negus",
+        "Sam Storey",
+        "Stuart Nixon"
+      ],
+      "electrical_count": 2,
+      "mechanical_count": 14,
+      "total_count": 16
+    },
+    "TOXC": {
+      "ride_name": "Toxic Bog",
+      "ride_type": "B",
+      "electrical_engineers": [],
+      "mechanical_engineers": [
+        "Andrew Harvey",
+        "Chris Banks",
+        "Jack Bill",
+        "Joe Gaskell",
+        "Josh Crabbe",
+        "Lee Pettitt",
+        "Mark Hambleton",
+        "Mark Pickford",
+        "Nicholas Leese",
+        "Paul Ratcliff",
+        "Robert Negus",
+        "Stuart Nixon"
+      ],
+      "electrical_count": 0,
+      "mechanical_count": 12,
+      "total_count": 12
+    },
+    "WICK": {
+      "ride_name": "Wickerman",
+      "ride_type": "A",
+      "electrical_engineers": [
+        "Aaron Sharp",
+        "Adam Yeomans",
+        "Alex Davies",
+        "Michael Doyle"
+      ],
+      "mechanical_engineers": [
+        "Aaron Bagnall",
+        "Alistair Cooke",
+        "Andrew Harvey",
+        "Chris Banks",
+        "Daniel Bleasdale",
+        "Frazer Roberts",
+        "Jack Bill",
+        "Josh Crabbe",
+        "Joshua Powell",
+        "Mark Pickford",
+        "Nicholas Leese",
+        "Sam Storey",
+        "Simon Chatfield",
+        "Ted Edwards",
+        "Tom Billing"
+      ],
+      "electrical_count": 4,
+      "mechanical_count": 15,
+      "total_count": 19
+    },
+    "BLDE": {
+      "ride_name": "Blade",
+      "ride_type": "B",
+      "electrical_engineers": [],
+      "mechanical_engineers": [],
+      "electrical_count": 0,
+      "mechanical_count": 0,
+      "total_count": 0
+    }
+  }
+}

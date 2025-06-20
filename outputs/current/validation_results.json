@@ -32,11 +32,11 @@
     "overall_status": "\u2705 EXCELLENT",
     "risk_analysis": {
       "single_point_failures": 0,
-      "good_coverage": 89,
-      "excellent_coverage": 87,
+      "good_coverage": 91,
+      "excellent_coverage": 91,
       "overall_risk": "LOW",
       "spf_ratio": 0.0,
-      "total_qualifications": 89,
+      "total_qualifications": 91,
       "spf_qualifications": []
     },
     "rotation_info": {
@@ -63,9 +63,9 @@
       "failed_weeks": [],
       "coverage_gaps": [],
       "unique_gap_qualifications": [],
-      "am_scheduled": 1868,
-      "pm_scheduled": 4,
-      "am_preference_rate": 99.78632478632478,
+      "am_scheduled": 1872,
+      "pm_scheduled": 0,
+      "am_preference_rate": 100.0,
       "weeks_tested": 36
     },
     "monthly": {
@@ -80,12 +80,12 @@
     "risk_analysis": {
       "single_point_failures": 1,
       "good_coverage": 88,
-      "excellent_coverage": 87,
+      "excellent_coverage": 85,
       "overall_risk": "LOW",
       "spf_ratio": 0.011235955056179775,
       "total_qualifications": 89,
       "spf_qualifications": [
-        "SKYR.4.ME.R.S"
+        "MMAY.4.ME.S"
       ]
     },
     "rotation_info": {
