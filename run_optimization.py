@@ -147,6 +147,58 @@ def run_milp_optimization(optimizer):
     }
 
 
+def run_training_optimization(optimizer):
+    """Run Training Optimization based on current qualifications"""
+    print("\n🎓 RUNNING TRAINING OPTIMIZATION ANALYSIS...")
+    
+    # Import the training optimizer
+    from src.analysis.training_optimization_designer import TrainingOptimizationDesigner
+    
+    designer = TrainingOptimizationDesigner(optimizer)
+    
+    # Step 1: Load current qualifications from EngQual.csv
+    current_matrices = designer.load_current_qualification_state()
+    
+    # Step 2: Create qualification matrices from current state (not theoretical optimal)
+    current_state_matrices = designer.create_current_state_matrices(current_matrices)
+    
+    # Step 3: Analyze coverage gaps and optimize training assignments
+    training_recommendations = designer.optimize_training_assignments(current_state_matrices)
+    
+    # Step 3.5: Generate and display detailed training report
+    detailed_report = designer.generate_detailed_training_report(training_recommendations, current_state_matrices)
+    designer.display_detailed_training_report(detailed_report)
+    
+    # Step 3.6: Export to CSV for easy analysis
+    csv_files = designer.export_detailed_report_to_csv(detailed_report)
+    
+    # Step 4: Validate proposed training impact
+    validation_results = designer.validate_training_impact(training_recommendations)
+    
+    return current_matrices, current_state_matrices, training_recommendations, validation_results, detailed_report, csv_files, {
+        "approach": "training_optimization",
+        "features": [
+            "current_state_analysis",
+            "qualification_gap_identification", 
+            "training_impact_optimization",
+            "coverage_improvement_prioritization",
+            "cost_benefit_analysis",
+            "skill_development_planning"
+        ],
+        "target_coverage": {
+            "daily_ppms": "Progressive improvement",
+            "weekly_ppms": "Progressive improvement", 
+            "monthly_ppms": "Progressive improvement"
+        },
+        "optimization_goals": [
+            "Minimize training effort",
+            "Maximize coverage improvement",
+            "Balance workload distribution",
+            "Prioritize critical skills gaps"
+        ]
+    }
+
+
 def main():
     """Main optimization selection and execution"""
     print("🚀 QUALIFICATION MATRIX OPTIMIZATION SUITE")
@@ -156,12 +208,13 @@ def main():
     print("3. ULTIMATE: 100% daily coverage target")
     print("4. BALANCED: Even qualification distribution")
     print("5. MILP: Mathematical optimization (guaranteed coverage + fairness)")
+    print("6. TRAINING: Current state vs optimal training")
     print()
     
-    choice = input("Select optimization approach (1-5): ").strip()
+    choice = input("Select optimization approach (1-6): ").strip()
     
-    if choice not in ['1', '2', '3', '4', '5']:
-        print("❌ Invalid choice. Please select 1, 2, 3, 4, or 5.")
+    if choice not in ['1', '2', '3', '4', '5', '6']:
+        print("❌ Invalid choice. Please select 1, 2, 3, 4, 5, or 6.")
         sys.exit(1)
     
     print(f"\n🚀 STARTING OPTIMIZATION")
@@ -192,6 +245,10 @@ def main():
         elif choice == '5':
             matrices, validation_results, assignment_counts, config = run_milp_optimization(optimizer)
             optimization_name = "milp_mathematical"
+        elif choice == '6':
+            current_matrices, current_state_matrices, training_recommendations, validation_results, detailed_report, csv_files, config = run_training_optimization(optimizer)
+            optimization_name = "training_optimization"
+            matrices = current_state_matrices  # Use current state matrices for saving
         
         # Step 3: Save to standardized location
         print("\n💾 SAVING TO STANDARD LOCATION...")
@@ -212,38 +269,62 @@ def main():
             
             with open(assignment_counts_path, 'w') as f:
                 json.dump(assignment_counts, f, indent=2)
+        
+        # Step 3.6: Save training recommendations if available (Training optimization)
+        if choice == '6' and 'training_recommendations' in locals():
+            import json
+            training_path = output_manager.current_dir / "training_recommendations.json"
+            current_state_path = output_manager.current_dir / "current_qualification_state.json"
+            print(f"   💾 Saving training recommendations to: {training_path}")
+            print(f"   💾 Saving current state analysis to: {current_state_path}")
+            
+            with open(training_path, 'w') as f:
+                json.dump(training_recommendations, f, indent=2)
+            
+            with open(current_state_path, 'w') as f:
+                json.dump(current_matrices, f, indent=2)
+            
+            # Save detailed training report
+            detailed_report_path = output_manager.current_dir / "detailed_training_report.json"
+            print(f"   💾 Saving detailed training report to: {detailed_report_path}")
+            
+            with open(detailed_report_path, 'w') as f:
+                json.dump(detailed_report, f, indent=2)
             
             # Display summary of assignment counts
             print("\n📊 ENGINEER ASSIGNMENT COUNTS SUMMARY:")
-            for team_key, team_data in assignment_counts.items():
-                team_num = team_key.split('_')[1]
-                print(f"\n🏢 TEAM {team_num}:")
-                
-                # Calculate statistics
-                total_rides = len(team_data)
-                total_engineers = sum(ride_data['total_count'] for ride_data in team_data.values())
-                avg_engineers_per_ride = total_engineers / total_rides if total_rides > 0 else 0
-                
-                electrical_engineers = sum(ride_data['electrical_count'] for ride_data in team_data.values())
-                mechanical_engineers = sum(ride_data['mechanical_count'] for ride_data in team_data.values())
-                
-                print(f"   Total rides: {total_rides}")
-                print(f"   Total engineer assignments: {total_engineers}")
-                print(f"   Average engineers per ride: {avg_engineers_per_ride:.1f}")
-                print(f"   Electrical engineers: {electrical_engineers}")
-                print(f"   Mechanical engineers: {mechanical_engineers}")
-                
-                # Show rides with highest/lowest coverage
-                if team_data:
-                    ride_counts = [(ride_id, data['total_count'], data['ride_name']) 
-                                  for ride_id, data in team_data.items()]
-                    ride_counts.sort(key=lambda x: x[1])
+            if assignment_counts:
+                for team_key, team_data in assignment_counts.items():
+                    team_num = team_key.split('_')[1]
+                    print(f"\n🏢 TEAM {team_num}:")
                     
-                    min_ride = ride_counts[0]
-                    max_ride = ride_counts[-1]
+                    # Calculate statistics
+                    total_rides = len(team_data)
+                    total_engineers = sum(ride_data['total_count'] for ride_data in team_data.values())
+                    avg_engineers_per_ride = total_engineers / total_rides if total_rides > 0 else 0
                     
-                    print(f"   Lowest coverage: {min_ride[2]} ({min_ride[1]} engineers)")
-                    print(f"   Highest coverage: {max_ride[2]} ({max_ride[1]} engineers)")
+                    electrical_engineers = sum(ride_data['electrical_count'] for ride_data in team_data.values())
+                    mechanical_engineers = sum(ride_data['mechanical_count'] for ride_data in team_data.values())
+                    
+                    print(f"   Total rides: {total_rides}")
+                    print(f"   Total engineer assignments: {total_engineers}")
+                    print(f"   Average engineers per ride: {avg_engineers_per_ride:.1f}")
+                    print(f"   Electrical engineers: {electrical_engineers}")
+                    print(f"   Mechanical engineers: {mechanical_engineers}")
+                    
+                    # Show rides with highest/lowest coverage
+                    if team_data:
+                        ride_counts = [(ride_id, data['total_count'], data['ride_name']) 
+                                      for ride_id, data in team_data.items()]
+                        ride_counts.sort(key=lambda x: x[1])
+                        
+                        min_ride = ride_counts[0]
+                        max_ride = ride_counts[-1]
+                        
+                        print(f"   Lowest coverage: {min_ride[2]} ({min_ride[1]} engineers)")
+                        print(f"   Highest coverage: {max_ride[2]} ({max_ride[1]} engineers)")
+            else:
+                print("   No assignment counts available for this optimization type.")
         
         # Step 4: Display summary
         print("\n📈 OPTIMIZATION RESULTS SUMMARY:")
@@ -327,11 +408,38 @@ def main():
                 print(f"   ✅ Achieved mathematical optimum: fairness + coverage")
             else:
                 print(f"   ⚠️  Constraint satisfaction achieved (coverage optimized)")
+        elif choice == '6':
+            print(f"\n🎓 Training optimization completed!")
+            
+            # Check for training effectiveness
+            training_effectiveness = True
+            for team in [1, 2]:
+                if team in validation_results:
+                    if validation_results[team]['daily']['coverage_percentage'] < 95:
+                        training_effectiveness = False
+                        break
+            
+            if training_effectiveness:
+                print(f"   ✅ Training effectiveness achieved: coverage improvement")
+            else:
+                print(f"   ⚠️  Training effectiveness not fully achieved")
         
         print(f"📁 Results saved to standard location: {output_manager.current_dir}")
+        
+        # Additional info for training optimization
+        if choice == '6':
+            print(f"\n📊 CSV FILES FOR EASY ANALYSIS:")
+            print(f"   • training_summary_by_engineer.csv - Engineer overview & priority scores")
+            print(f"   • training_breakdown_by_ride.csv - Ride-by-ride qualification needs")
+            print(f"   • specific_qualifications_needed.csv - Exact qualifications to train")
+            print(f"   • training_priority_ranking.csv - Overall priority ranking")
+            print(f"   💡 Open these in Excel/Google Sheets for filtering & sorting!")
+        
         print(f"\n💡 Next steps:")
         print(f"   • Run validation: python3 validate_qualifications.py")
         print(f"   • View results: ls {output_manager.current_dir}")
+        if choice == '6':
+            print(f"   • Open CSV files in Excel/Google Sheets for detailed analysis")
         
     except Exception as e:
         print(f"\n❌ ERROR during optimization: {e}")

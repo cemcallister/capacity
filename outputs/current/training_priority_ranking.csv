@@ -1,0 +1,21 @@
+Overall_Rank,Team,Engineer_Code,Engineer_Name,Role,Status,Priority_Score,Training_Effort,Daily_Impact,Weekly_Impact,Monthly_Impact,Top_Ride_1,Top_Ride_1_Type,Top_Ride_1_Training,Top_Ride_1_Daily,Top_Ride_2,Top_Ride_2_Type,Top_Ride_2_Training,Top_Ride_2_Daily,Top_Ride_3,Top_Ride_3_Type,Top_Ride_3_Training,Top_Ride_3_Daily
+1,2,TEDWARDS,Ted Edwards,Mechanical,CURRENT,142,27,8,8,11,WICK,A,8,2,MONO,B,4,2,GALA,A,6,1
+2,2,TBILLING,Tom Billing,Mechanical,CURRENT,139,28,7,9,12,MONO,B,4,2,GALA,A,6,1,OCTO,B,5,1
+3,2,ACOOKE,Alistair Cooke,Mechanical,CURRENT,135,26,7,9,10,WICK,A,8,2,GALA,A,6,1,RMTR,B,5,1
+4,2,JSUMMERS,Jake Summers,Mechanical,CURRENT,131,24,7,9,8,WICK,A,8,2,MONO,B,4,2,OCTO,B,5,1
+5,2,CBANKS,Chris Banks,Mechanical,CURRENT,129,27,6,9,12,WICK,A,8,2,RAPD,C,5,1,SKYR,A,5,1
+6,2,JGASKELL,Joe Gaskell,Mechanical,CURRENT,122,25,6,8,11,WICK,A,8,2,RAPD,C,5,1,RMTR,B,5,1
+7,2,SCHATFIELD,Simon Chatfield,Mechanical,CURRENT,120,23,7,6,10,MONO,B,4,2,GALA,A,6,1,SKYR,A,5,1
+8,1,JBOOTH,John Booth,Mechanical,CURRENT,104,20,5,8,7,OBLV,A,7,1,THRT,A,5,1,SUBT,B,4,1
+9,1,LBEDFORD,Leon Bedford,Mechanical,CURRENT,103,21,5,7,9,OBLV,A,7,1,THRT,A,5,1,SUBT,B,4,1
+10,1,TTHORNTON,Thomas Thornton,Mechanical,CURRENT,103,21,5,7,9,RITA,A,6,2,SMLR,A,7,1,GANG,C,5,1
+11,2,JCRABBE,Josh Crabbe,Mechanical,CURRENT,98,21,4,8,9,GALA,A,6,1,OCTO,B,5,1,RMTR,B,5,1
+12,2,SSTOREY,Sam Storey,Mechanical,CURRENT,98,20,5,6,9,OCTO,B,5,1,RAPD,C,5,1,SKYR,A,5,1
+13,1,JBRENTON,Joshua Brenton,Mechanical,CURRENT,95,17,5,7,5,RITA,A,6,2,SPBL,A,5,1,SUBT,B,4,1
+14,1,JKIRK,John Kirk,Mechanical,CURRENT,94,19,4,8,7,SPBL,A,5,1,SUBT,B,4,1,ITNG,C,3,1
+15,2,JPOWELL,Joshua Powell,Mechanical,CURRENT,94,17,6,4,7,MONO,B,4,2,SKYR,A,5,1,BTGA,B,3,1
+16,1,SCOHEN,Shaun Cohen,Mechanical,CURRENT,88,19,4,6,9,OBLV,A,7,1,THRT,A,5,1,SUBT,B,4,1
+17,1,DFINNEY,David Finney,Mechanical,CURRENT,87,17,4,7,6,SMLR,A,7,1,GANG,C,5,1,SUBT,B,4,1
+18,1,VACANCY7,Vacancy7,Mechanical,VACANT,81,19,6,5,8,RITA,A,6,2,SPBL,A,5,1,GSGO,C,3,1
+19,1,KHARNETT,Kevin Harnett,Mechanical,CURRENT,77,16,3,7,6,SMLR,A,7,1,GANG,C,5,1,SUBT,B,4,1
+20,1,SHOLDEN,Sam Holden,Mechanical,CURRENT,77,15,4,5,6,SPBL,A,5,1,SUBT,B,4,1,DSCH,C,2,1
